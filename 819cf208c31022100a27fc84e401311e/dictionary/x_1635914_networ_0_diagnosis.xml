@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="669507c0c35022100a27fc84e40131ca" label="Diagnosis" max_length="40" name="x_1635914_networ_0_diagnosis" type="collection">
+        <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
+        <element choice="1" display="true" label="Action" max_length="40" name="action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RMA" sequence="2" value="rma"/>
+                <element inactive_on_update="false" label="Escalation" sequence="3" value="escalation"/>
+                <element inactive_on_update="false" label="Reboot" sequence="0" value="reboot"/>
+                <element inactive_on_update="false" label="Test" sequence="4" value="test"/>
+                <element inactive_on_update="false" label="VendorDiagnosis" sequence="1" value="vendordiagnosis"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="device"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

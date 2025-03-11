@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 21:36:57</sys_created_on>
+        <sys_id>ba670b44c35022100a27fc84e40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1635914_networ_0_action.x_1635914_networ_0.admin</sys_name>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_security_acl display_value="x_1635914_networ_0_action">7a670b44c35022100a27fc84e40131b4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ba670b44c35022100a27fc84e40131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 21:36:57</sys_updated_on>
+        <sys_user_role display_value="x_1635914_networ_0.admin" name="x_1635914_networ_0.admin">859cf208c31022100a27fc84e4013140</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</application>
+        <file_path/>
+        <instance_id>e9010afe1bb9f5d0ba5ceb9b2d4bcb6d</instance_id>
+        <instance_name>dev185153</instance_name>
+        <name>sys_security_acl_role_ba670b44c35022100a27fc84e40131b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-10 21:36:57</sys_created_on><sys_id>ba670b44c35022100a27fc84e40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1635914_networ_0_action.x_1635914_networ_0.admin</sys_name><sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package><sys_policy/><sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope><sys_security_acl display_value="x_1635914_networ_0_action">7a670b44c35022100a27fc84e40131b4</sys_security_acl><sys_update_name>sys_security_acl_role_ba670b44c35022100a27fc84e40131b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-10 21:36:57</sys_updated_on><sys_user_role display_value="x_1635914_networ_0.admin" name="x_1635914_networ_0.admin">859cf208c31022100a27fc84e4013140</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>294489806</payload_hash>
+        <record_name>x_1635914_networ_0_action.x_1635914_networ_0.admin</record_name>
+        <reverted_from/>
+        <source>099cf208c31022100a27fc84e401313b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 21:36:57</sys_created_on>
+        <sys_id>3a670b44c35022100a27fc84e40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19581fd54200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 21:36:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3e670b44d9502210f7bda245f361d2b9</update_guid>
+        <update_guid_history>3e670b44d9502210f7bda245f361d2b9:294489806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1635914_networ_0_action.x_1635914_networ_0.admin">02384b84c35022100a27fc84e4013155</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 21:40:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3d9aeeddd13f41298ee097f227d1efe9</sys_id>
+        <sys_metadata>ba670b44c35022100a27fc84e40131b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1635914_networ_0_action.x_1635914_networ_0.admin</sys_name>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_parent display_value="">7a670b44c35022100a27fc84e40131b4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_scope_delete display_value="">1a2651c08dbb4e7484dff2647f9418a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ba670b44c35022100a27fc84e40131b7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ba670b44c35022100a27fc84e40131b7">3a670b44c35022100a27fc84e40131ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 21:40:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

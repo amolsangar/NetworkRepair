@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e0ea4388c35022100a27fc84e401315a" label="Hardware" max_length="40" name="x_1635914_networ_0_hardware" type="collection">
+        <element label="Software Version" max_length="40" name="software_version" type="string"/>
+        <element choice="3" display="true" label="Model" max_length="40" name="model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CISCO-8808" sequence="1" value="cisco_8808"/>
+                <element inactive_on_update="false" label="DCS-7808" sequence="2" value="dcs_7808"/>
+                <element inactive_on_update="false" label="PTX5000-HD" sequence="3" value="ptx5000_hd"/>
+                <element inactive_on_update="false" label="NCS-5508" sequence="0" value="ncs_5508"/>
+                <element inactive_on_update="false" label="ASR-9912-TK" sequence="4" value="asr_9912_tk"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="unknown" label="Vendor" max_length="40" name="vendor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="JUNIPER" sequence="3" value="juniper"/>
+                <element inactive_on_update="false" label="UNKNOWN" sequence="0" value="unknown"/>
+                <element inactive_on_update="false" label="ARISTA" sequence="1" value="arista"/>
+                <element inactive_on_update="false" label="CISCO" sequence="2" value="cisco"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

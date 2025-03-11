@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1865cf80c35022100a27fc84e40131f1" label="Correlation" max_length="40" name="x_1635914_networ_0_correlation" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" default="no" label="Proceed?" max_length="40" name="proceed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="YES" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="NO" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="device"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
