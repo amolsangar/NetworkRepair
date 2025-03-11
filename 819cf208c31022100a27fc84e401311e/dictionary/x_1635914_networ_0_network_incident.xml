@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8962914c35c22100a27fc84e4013188" extends="task" label="Network Incident" max_length="40" name="x_1635914_networ_0_network_incident" type="collection">
+        <element label="Undrain Result" max_length="32" name="undrain_result" reference="x_1635914_networ_0_mitigation" type="reference"/>
+        <element label="Drain Result" max_length="32" name="drain_result" reference="x_1635914_networ_0_mitigation" type="reference"/>
+        <element choice="3" default="unspecified" display="true" label="Phase" max_length="40" name="phase" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unspecified" sequence="0" value="unspecified"/>
+                <element inactive_on_update="false" label="Pre-work" sequence="1" value="pre_work"/>
+                <element inactive_on_update="false" label="Action" sequence="3" value="action"/>
+                <element inactive_on_update="false" label="Post-work" sequence="5" value="post_work"/>
+                <element inactive_on_update="false" label="Correlation" sequence="2" value="correlation"/>
+                <element inactive_on_update="false" label="Test" sequence="4" value="test"/>
+            </choice>
+        </element>
+        <element label="Mitigation State" max_length="32" name="mitigation" reference="x_1635914_networ_0_mitigation" type="reference"/>
+        <element choice="3" default="in_progress" label="Correlation Decision" max_length="32" name="correlation_decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IN_PROGRESS" sequence="0" value="in_progress"/>
+                <element inactive_on_update="false" label="PROCEED" sequence="1" value="proceed"/>
+                <element inactive_on_update="false" label="SKIP_REPAIR" sequence="2" value="skip_repair"/>
+            </choice>
+        </element>
+        <element choice="1" label="Symptom" max_length="40" name="symptom" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="bad_fabric_module" sequence="1" value="bad_fabric_module"/>
+                <element inactive_on_update="false" label="link_down" sequence="3" value="link_down"/>
+                <element inactive_on_update="false" label="syslog_coredump_generated" sequence="5" value="syslog_coredump_generated"/>
+                <element inactive_on_update="false" label="device_anomaly" sequence="7" value="device_anomaly"/>
+                <element inactive_on_update="false" label="high_disk_utilization" sequence="2" value="high_disk_utilization"/>
+                <element inactive_on_update="false" label="bad_pem" sequence="4" value="bad_pem"/>
+                <element inactive_on_update="false" label="switch_down" sequence="6" value="switch_down"/>
+                <element inactive_on_update="false" label="bad_linecard" sequence="0" value="bad_linecard"/>
+            </choice>
+        </element>
+        <element choice="1" label="Repair Priority" max_length="32" name="repair_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P1" sequence="1" value="p1"/>
+                <element inactive_on_update="false" label="P3" sequence="3" value="p3"/>
+                <element inactive_on_update="false" label="P2" sequence="2" value="p2"/>
+                <element inactive_on_update="false" label="P0" sequence="0" value="p0"/>
+            </choice>
+        </element>
+        <element label="Child Incidents" max_length="32" name="child_incidents" reference="x_1635914_networ_0_network_incident" type="reference"/>
+        <element label="Diagnosis Result" max_length="32" name="diagnosis_result" reference="x_1635914_networ_0_diagnosis" type="reference"/>
+        <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
+    </element>
+</database>

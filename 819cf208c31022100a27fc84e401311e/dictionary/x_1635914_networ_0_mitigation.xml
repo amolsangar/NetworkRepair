@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9893cb00c35022100a27fc84e40131f6" label="mitigation" max_length="40" name="x_1635914_networ_0_mitigation" type="collection">
+    <element db_object_id="9893cb00c35022100a27fc84e40131f6" label="Mitigation" max_length="40" name="x_1635914_networ_0_mitigation" type="collection">
         <element choice="3" default="not_started" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="NOT_STARTED" sequence="0" value="not_started"/>
@@ -7,8 +7,16 @@
                 <element inactive_on_update="false" label="COMPLETED" sequence="2" value="completed"/>
             </choice>
         </element>
+        <element label="Network Incident" max_length="32" name="network_incident" reference="x_1635914_networ_0_network_incident" type="reference"/>
         <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" display="true" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DRAINED" sequence="0" value="drained"/>
+                <element inactive_on_update="false" label="UNDRAINED" sequence="1" value="undrained"/>
+                <element inactive_on_update="false" label="ERROR" sequence="2" value="error"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
@@ -20,6 +28,9 @@
             <element name="device"/>
         </index>
         <index name="index2">
+            <element name="network_incident"/>
+        </index>
+        <index name="index3">
             <element name="sys_class_name"/>
         </index>
     </element>

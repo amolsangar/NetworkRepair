@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Mitigation" language="en" table="x_1635914_networ_0_mitigation">
+    <sys_documentation element="network_incident" label="Network Incident" language="en" table="x_1635914_networ_0_mitigation">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>network_incident</element>
             <help/>
             <hint/>
-            <label>Mitigation</label>
+            <label>Network Incident</label>
             <language>en</language>
             <name>x_1635914_networ_0_mitigation</name>
-            <plural>Mitigations</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:20:08</sys_created_on>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Mitigation</sys_name>
+            <sys_created_on>2025-03-11 10:01:54</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Network Incident</sys_name>
             <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
             <sys_policy/>
             <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
-            <sys_update_name>sys_documentation_x_1635914_networ_0_mitigation__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1635914_networ_0_mitigation_network_incident_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-11 01:20:36</sys_updated_on>
+            <sys_updated_on>2025-03-11 10:01:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
