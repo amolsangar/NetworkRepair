@@ -3,11 +3,11 @@
         <element label="Software Version" max_length="40" name="software_version" type="string"/>
         <element choice="3" display="true" label="Model" max_length="40" name="model" type="choice">
             <choice>
-                <element inactive_on_update="false" label="CISCO-8808" sequence="1" value="cisco_8808"/>
-                <element inactive_on_update="false" label="DCS-7808" sequence="2" value="dcs_7808"/>
-                <element inactive_on_update="false" label="PTX5000-HD" sequence="3" value="ptx5000_hd"/>
-                <element inactive_on_update="false" label="NCS-5508" sequence="0" value="ncs_5508"/>
-                <element inactive_on_update="false" label="ASR-9912-TK" sequence="4" value="asr_9912_tk"/>
+                <element inactive_on_update="false" label="CISCO-8808" sequence="1" value="CISCO-8808"/>
+                <element inactive_on_update="false" label="ASR-9912-TK" sequence="4" value="ASR-9912-TK"/>
+                <element inactive_on_update="false" label="DCS-7808" sequence="2" value="DCS-7808"/>
+                <element inactive_on_update="false" label="PTX5000-HD" sequence="3" value="PTX5000-HD"/>
+                <element inactive_on_update="false" label="NCS-5508" sequence="0" value="NCS-5508"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

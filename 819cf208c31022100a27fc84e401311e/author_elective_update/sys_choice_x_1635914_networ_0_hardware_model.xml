@@ -26,13 +26,13 @@
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:54:40</sys_created_on>
+            <sys_created_on>2025-03-13 00:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 21:54:40</sys_updated_on>
-            <value>ncs_5508</value>
+            <sys_updated_on>2025-03-13 00:45:29</sys_updated_on>
+            <value>NCS-5508</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -45,13 +45,13 @@
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:54:40</sys_created_on>
+            <sys_created_on>2025-03-13 00:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 21:54:40</sys_updated_on>
-            <value>cisco_8808</value>
+            <sys_updated_on>2025-03-13 00:45:29</sys_updated_on>
+            <value>CISCO-8808</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -64,13 +64,13 @@
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:54:40</sys_created_on>
+            <sys_created_on>2025-03-13 00:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 21:54:40</sys_updated_on>
-            <value>dcs_7808</value>
+            <sys_updated_on>2025-03-13 00:45:29</sys_updated_on>
+            <value>DCS-7808</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -83,13 +83,13 @@
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:54:40</sys_created_on>
+            <sys_created_on>2025-03-13 00:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 21:54:40</sys_updated_on>
-            <value>ptx5000_hd</value>
+            <sys_updated_on>2025-03-13 00:45:29</sys_updated_on>
+            <value>PTX5000-HD</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -102,13 +102,13 @@
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 21:54:40</sys_created_on>
+            <sys_created_on>2025-03-13 00:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 21:54:40</sys_updated_on>
-            <value>asr_9912_tk</value>
+            <sys_updated_on>2025-03-13 00:45:29</sys_updated_on>
+            <value>ASR-9912-TK</value>
         </sys_choice>
     </sys_choice>
 </record_update>

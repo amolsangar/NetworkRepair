@@ -2,8 +2,9 @@
     <element db_object_id="9893cb00c35022100a27fc84e40131f6" label="Mitigation" max_length="40" name="x_1635914_networ_0_mitigation" type="collection">
         <element choice="3" default="not_started" label="Status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="RUNNING" sequence="1" value="running"/>
                 <element inactive_on_update="false" label="NOT_STARTED" sequence="0" value="not_started"/>
-                <element inactive_on_update="false" label="ONGOING" sequence="1" value="ongoing"/>
+                <element inactive_on_update="false" label="ERROR" sequence="3" value="error"/>
                 <element inactive_on_update="false" label="COMPLETED" sequence="2" value="completed"/>
             </choice>
         </element>

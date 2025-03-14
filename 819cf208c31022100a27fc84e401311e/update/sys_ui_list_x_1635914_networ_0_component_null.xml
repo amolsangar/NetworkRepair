@@ -2,78 +2,168 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1635914_networ_0_component" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6859b468c31c62100a27fc84e4013160</list_id>
+            <element>number</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
-            <sys_id>e859b468c31c62100a27fc84e4013161</sys_id>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>1b852491c31466100a27fc84e4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6859b468c31c62100a27fc84e4013160</list_id>
+            <element>name</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
-            <sys_id>e059b468c31c62100a27fc84e4013162</sys_id>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>13852491c31466100a27fc84e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6859b468c31c62100a27fc84e4013160</list_id>
+            <element>device</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
-            <sys_id>e459b468c31c62100a27fc84e4013162</sys_id>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>17852491c31466100a27fc84e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6859b468c31c62100a27fc84e4013160</list_id>
+            <element>devpath</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
-            <sys_id>e859b468c31c62100a27fc84e4013162</sys_id>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>1b852491c31466100a27fc84e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_mod_count</element>
-            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6859b468c31c62100a27fc84e4013160</list_id>
+            <element>kind</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
-            <sys_id>ec59b468c31c62100a27fc84e4013162</sys_id>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>1f852491c31466100a27fc84e4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entity</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>13852491c31466100a27fc84e4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>17852491c31466100a27fc84e4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>1b852491c31466100a27fc84e4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>5b85ec91c31466100a27fc84e4013190</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>5f85ec91c31466100a27fc84e4013190</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1635914_networ_0_component" element="NULL" name="x_1635914_networ_0_component" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">97852491c31466100a27fc84e4013122</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
+            <sys_id>5385ec91c31466100a27fc84e4013191</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,10 +177,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-12 00:33:05</sys_created_on>
+            <sys_created_on>2025-03-14 07:02:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6859b468c31c62100a27fc84e4013160</sys_id>
+            <sys_id>97852491c31466100a27fc84e4013122</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1635914_networ_0_component</sys_name>
             <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
@@ -98,7 +188,7 @@
             <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
             <sys_update_name>sys_ui_list_x_1635914_networ_0_component_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-12 00:33:05</sys_updated_on>
+            <sys_updated_on>2025-03-14 07:02:09</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

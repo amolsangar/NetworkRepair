@@ -9,6 +9,13 @@
                 <element inactive_on_update="false" label="P2" sequence="2" value="p2"/>
             </choice>
         </element>
+        <element choice="3" default="not_started" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ONGOING" sequence="1" value="ongoing"/>
+                <element inactive_on_update="false" label="NOT_STARTED" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="COMPLETED" sequence="2" value="completed"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>

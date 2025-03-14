@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8962914c35c22100a27fc84e4013188" extends="task" label="Network Incident" max_length="40" name="x_1635914_networ_0_network_incident" type="collection">
         <element label="Mitigation" max_length="32" name="mitigation" reference="x_1635914_networ_0_mitigation" type="reference"/>
-        <element choice="3" default="unspecified" display="true" label="Phase" max_length="40" name="phase" type="choice">
+        <element choice="3" default="unspecified" label="Phase" max_length="40" name="phase" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unspecified" sequence="0" value="unspecified"/>
                 <element inactive_on_update="false" label="Pre-work" sequence="1" value="pre_work"/>
@@ -21,18 +21,19 @@
         <element label="Diagnosis" max_length="32" name="diagnosis" reference="x_1635914_networ_0_diagnosis" type="reference"/>
         <element choice="1" label="Symptom" max_length="40" name="symptom" type="choice">
             <choice>
-                <element inactive_on_update="false" label="bad_fabric_module" sequence="1" value="bad_fabric_module"/>
-                <element inactive_on_update="false" label="link_down" sequence="3" value="link_down"/>
-                <element inactive_on_update="false" label="syslog_coredump_generated" sequence="5" value="syslog_coredump_generated"/>
-                <element inactive_on_update="false" label="device_anomaly" sequence="7" value="device_anomaly"/>
-                <element inactive_on_update="false" label="high_disk_utilization" sequence="2" value="high_disk_utilization"/>
-                <element inactive_on_update="false" label="bad_pem" sequence="4" value="bad_pem"/>
-                <element inactive_on_update="false" label="switch_down" sequence="6" value="switch_down"/>
-                <element inactive_on_update="false" label="bad_linecard" sequence="0" value="bad_linecard"/>
+                <element inactive_on_update="false" label="bad-fabric-module" sequence="1" value="bad_fabric_module"/>
+                <element inactive_on_update="false" label="link-down" sequence="3" value="link_down"/>
+                <element inactive_on_update="false" label="syslog-coredump-generated" sequence="5" value="syslog_coredump_generated"/>
+                <element inactive_on_update="false" label="device-anomaly" sequence="7" value="device_anomaly"/>
+                <element inactive_on_update="false" label="high-disk-utilization" sequence="2" value="high_disk_utilization"/>
+                <element inactive_on_update="false" label="bad-pem" sequence="4" value="bad_pem"/>
+                <element inactive_on_update="false" label="switch-down" sequence="6" value="switch_down"/>
+                <element inactive_on_update="false" label="bad-linecard" sequence="0" value="bad_linecard"/>
             </choice>
         </element>
         <element label="Repair Priority" max_length="32" name="repair_priority" reference="x_1635914_networ_0_prioritization" type="reference"/>
+        <element label="Broken Device" max_length="32" name="broken_device" read_only="true" reference="x_1635914_networ_0_device" type="reference"/>
         <element label="Child Incidents" max_length="32" name="child_incidents" reference="x_1635914_networ_0_network_incident" type="reference"/>
-        <element label="Broken Component" max_length="32" name="broken_component" reference="x_1635914_networ_0_component" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Broken Component" mandatory="true" max_length="32" name="broken_component" reference="x_1635914_networ_0_component" type="reference" use_dependent_field="true"/>
     </element>
 </database>

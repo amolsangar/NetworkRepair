@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="7c995491c3d066100a27fc84e4013148" sys_domain="global" table="x_1635914_networ_0_diagnosis" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>response</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 06:09:50</sys_created_on>
+            <sys_id>7c995491c3d066100a27fc84e4013158</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1635914_networ_0_diagnosis" sys_domain="global" view="Default view">7c995491c3d066100a27fc84e4013148</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 06:09:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1635914_networ_0_diagnosis</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 06:09:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c995491c3d066100a27fc84e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1635914_networ_0_diagnosis</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+            <sys_update_name>sys_ui_section_7c995491c3d066100a27fc84e4013148</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 06:09:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</application>
+        <file_path/>
+        <instance_id>e9010afe1bb9f5d0ba5ceb9b2d4bcb6d</instance_id>
+        <instance_name>dev185153</instance_name>
+        <name>sys_ui_section_7c995491c3d066100a27fc84e4013148</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="7c995491c3d066100a27fc84e4013148" sys_domain="global" table="x_1635914_networ_0_diagnosis" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>response</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 06:09:50</sys_created_on><sys_id>7c995491c3d066100a27fc84e4013158</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1635914_networ_0_diagnosis" sys_domain="global" view="Default view">7c995491c3d066100a27fc84e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 06:09:50</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1635914_networ_0_diagnosis</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 06:09:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7c995491c3d066100a27fc84e4013148</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1635914_networ_0_diagnosis</sys_name><sys_overrides/><sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package><sys_policy/><sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope><sys_update_name>sys_ui_section_7c995491c3d066100a27fc84e4013148</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 06:09:49</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-41628551</payload_hash>
+        <record_name>Diagnosis</record_name>
+        <reverted_from/>
+        <source>e85737ccc31422100a27fc84e40131d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 06:09:50</sys_created_on>
+        <sys_id>7c995491c3d066100a27fc84e401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1959345f5d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 06:09:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f099549118d066108ec5a635b98e805a</update_guid>
+        <update_guid_history>f099549118d066108ec5a635b98e805a:-41628551</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 06:10:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>94a26b58d30f4052a829cbd9ae89cc01</sys_id>
+        <sys_metadata>7c995491c3d066100a27fc84e4013148</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_parent display_value="Diagnosis">669507c0c35022100a27fc84e40131ca</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_scope_delete display_value="">1a2651c08dbb4e7484dff2647f9418a1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7c995491c3d066100a27fc84e4013148</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7c995491c3d066100a27fc84e4013148">7c995491c3d066100a27fc84e401315a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 06:10:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

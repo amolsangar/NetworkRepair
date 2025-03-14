@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="device" label="Device" language="en" table="x_1635914_networ_0_diagnosis">
+    <sys_documentation element="network_incident" label="Network Incident" language="en" table="x_1635914_networ_0_diagnosis">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>device</element>
+            <element>network_incident</element>
             <help/>
             <hint/>
-            <label>Device</label>
+            <label>Network Incident</label>
             <language>en</language>
             <name>x_1635914_networ_0_diagnosis</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-10 22:03:32</sys_created_on>
+            <sys_created_on>2025-03-14 06:12:24</sys_created_on>
             <sys_mod_count>3</sys_mod_count>
-            <sys_name>Device</sys_name>
+            <sys_name>Network Incident</sys_name>
             <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
             <sys_policy/>
             <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
-            <sys_update_name>sys_documentation_x_1635914_networ_0_diagnosis_device_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1635914_networ_0_diagnosis_network_incident_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-10 22:03:33</sys_updated_on>
+            <sys_updated_on>2025-03-14 06:12:24</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

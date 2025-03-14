@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c0597ce8c31c62100a27fc84e40131a6" label="Component" max_length="40" name="x_1635914_networ_0_component" type="collection">
+        <element display="true" label="Entity" max_length="100" name="entity" read_only="true" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element choice="1" label="Kind" max_length="40" name="kind" type="choice">
@@ -11,8 +12,8 @@
             </choice>
         </element>
         <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
-        <element label="Devpath" max_length="40" name="devpath" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Devpath" max_length="100" name="devpath" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="device"/>
         </index>

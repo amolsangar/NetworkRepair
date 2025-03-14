@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Role, Pop, Metro</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var pattern = /^([a-zA-Z]{2,})\d{2,4}\.(([a-zA-Z]{3})\d{2,4})$/;
+    var res = pattern.exec(newValue);
+    g_form.setValue('role', res[1].toUpperCase(), res[1]);
+    g_form.setValue('pop', res[2].toUpperCase(), res[2]);
+	g_form.setValue('metro', res[3].toUpperCase(), res[3]);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-13 00:03:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>baa9fd74c314e2100a27fc84e4013197</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Populate Role, Pop, Metro</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name>sys_script_client_baa9fd74c314e2100a27fc84e4013197</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-13 00:33:02</sys_updated_on>
+        <table>x_1635914_networ_0_device</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
