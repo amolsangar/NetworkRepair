@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86b32795c390a6100a27fc84e40131bc" label="External Services Base" max_length="40" name="x_1635914_networ_0_external_services_base" type="collection">
+        <element label="Network Incident" max_length="32" name="network_incident" reference="x_1635914_networ_0_network_incident" type="reference"/>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Canceled" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Pending" sequence="-5" value="-5"/>
+                <element inactive_on_update="false" label="Closed Skipped" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Completed with errors" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Name" max_length="40" name="service_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diagnosis" sequence="0" value="diagnosis"/>
+                <element inactive_on_update="false" label="Mitigation" sequence="1" value="mitigation"/>
+                <element inactive_on_update="false" label="Tests" sequence="4" value="tests"/>
+                <element inactive_on_update="false" label="Escalation" sequence="3" value="escalation"/>
+                <element inactive_on_update="false" label="Prioritization" sequence="2" value="prioritization"/>
+            </choice>
+        </element>
+        <element label="Response" max_length="1000" name="response" type="string_full_utf8"/>
+        <element label="Execution Instance #" max_length="40" name="execution_instance" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="network_incident"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

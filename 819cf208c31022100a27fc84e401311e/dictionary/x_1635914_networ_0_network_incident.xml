@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8962914c35c22100a27fc84e4013188" extends="task" label="Network Incident" max_length="40" name="x_1635914_networ_0_network_incident" type="collection">
-        <element label="Mitigation" max_length="32" name="mitigation" reference="x_1635914_networ_0_mitigation" type="reference"/>
         <element choice="3" default="unspecified" label="Phase" max_length="40" name="phase" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Unspecified" sequence="0" value="unspecified"/>
@@ -18,7 +17,6 @@
                 <element inactive_on_update="false" label="SKIP_REPAIR" sequence="2" value="skip_repair"/>
             </choice>
         </element>
-        <element label="Diagnosis" max_length="32" name="diagnosis" reference="x_1635914_networ_0_diagnosis" type="reference"/>
         <element choice="1" label="Symptom" max_length="40" name="symptom" type="choice">
             <choice>
                 <element inactive_on_update="false" label="bad-fabric-module" sequence="1" value="bad_fabric_module"/>
@@ -31,7 +29,6 @@
                 <element inactive_on_update="false" label="bad-linecard" sequence="0" value="bad_linecard"/>
             </choice>
         </element>
-        <element label="Repair Priority" max_length="32" name="repair_priority" reference="x_1635914_networ_0_prioritization" type="reference"/>
         <element label="Broken Device" max_length="32" name="broken_device" read_only="true" reference="x_1635914_networ_0_device" type="reference"/>
         <element label="Child Incidents" max_length="32" name="child_incidents" reference="x_1635914_networ_0_network_incident" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Broken Component" mandatory="true" max_length="32" name="broken_component" reference="x_1635914_networ_0_component" type="reference" use_dependent_field="true"/>

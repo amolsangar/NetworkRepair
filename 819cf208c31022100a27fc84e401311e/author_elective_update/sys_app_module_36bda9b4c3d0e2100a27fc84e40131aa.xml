@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Network Repair">cbbca574c3d0e2100a27fc84e401318b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>List of all diagnosis performed</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Diagnosis</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1635914_networ_0_diagnosis</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>admin,x_1635914_networ_0.ggn_wan_repairs,x_1635914_networ_0.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 23:03:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36bda9b4c3d0e2100a27fc84e40131aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Diagnosis</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name>sys_app_module_36bda9b4c3d0e2100a27fc84e40131aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 23:06:10</sys_updated_on>
+        <timeline_page/>
+        <title>Diagnosis</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</application>
+        <file_path/>
+        <instance_id>e9010afe1bb9f5d0ba5ceb9b2d4bcb6d</instance_id>
+        <instance_name>dev185153</instance_name>
+        <name>sys_app_module_36bda9b4c3d0e2100a27fc84e40131aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Network Repair">cbbca574c3d0e2100a27fc84e401318b</application><assessment/><device_type/><filter/><hint>List of all diagnosis performed</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Diagnosis</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1635914_networ_0_diagnosis</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>admin,x_1635914_networ_0.ggn_wan_repairs,x_1635914_networ_0.admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-12 23:03:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>36bda9b4c3d0e2100a27fc84e40131aa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Diagnosis</sys_name><sys_overrides/><sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package><sys_policy/><sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope><sys_update_name>sys_app_module_36bda9b4c3d0e2100a27fc84e40131aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-12 23:06:10</sys_updated_on><timeline_page/><title>Diagnosis</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>482147417</payload_hash>
+        <record_name>Diagnosis</record_name>
+        <reverted_from/>
+        <source>e85737ccc31422100a27fc84e40131d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 23:06:10</sys_created_on>
+        <sys_id>890f6538c3d0e2100a27fc84e4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1958c9bb8f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 23:06:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>010f653800d0e2104ea6e8975e3fda60</update_guid>
+        <update_guid_history>010f653800d0e2104ea6e8975e3fda60:482147417,fe4e65f4cdd0e210f8ce325355f58d06:-1697554950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Diagnosis">af9a3755c314a6100a27fc84e401316c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 22:33:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>19a2ccc7c39c4d4494809aa1b46eacc4</sys_id>
+        <sys_metadata>36bda9b4c3d0e2100a27fc84e40131aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Diagnosis</sys_name>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_scope_delete display_value="">1a2651c08dbb4e7484dff2647f9418a1</sys_scope_delete>
+        <sys_update_name>sys_app_module_36bda9b4c3d0e2100a27fc84e40131aa</sys_update_name>
+        <sys_update_version display_value="sys_app_module_36bda9b4c3d0e2100a27fc84e40131aa">890f6538c3d0e2100a27fc84e4013160</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 22:33:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
