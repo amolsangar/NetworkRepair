@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8962914c35c22100a27fc84e4013188" extends="task" label="Network Incident" max_length="40" name="x_1635914_networ_0_network_incident" type="collection">
-        <element choice="3" default="unspecified" label="Phase" max_length="40" name="phase" type="choice">
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_mitigation" label="Last Mitigation Result" max_length="40" name="last_mitigation_result" read_only="true" type="string">
+            <choice/>
+        </element>
+        <element label="Record Locked" max_length="40" name="record_locked" type="boolean"/>
+        <element choice="3" default="in_progress" label="Correlation Decision" max_length="32" name="correlation_decision" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Unspecified" sequence="0" value="unspecified"/>
-                <element inactive_on_update="false" label="Pre-work" sequence="1" value="pre_work"/>
-                <element inactive_on_update="false" label="Action" sequence="3" value="action"/>
-                <element inactive_on_update="false" label="Post-work" sequence="5" value="post_work"/>
-                <element inactive_on_update="false" label="Correlation" sequence="2" value="correlation"/>
-                <element inactive_on_update="false" label="Test" sequence="4" value="test"/>
+                <element inactive_on_update="false" label="Proceed" sequence="1" value="proceed"/>
+                <element inactive_on_update="false" label="Skip" sequence="2" value="skip"/>
+                <element inactive_on_update="false" label="Block" sequence="3" value="block"/>
+                <element inactive_on_update="false" label="Calculating" sequence="0" value="calculating"/>
             </choice>
         </element>
-        <element choice="3" default="in_progress" label="Correlation Decision" max_length="32" name="correlation_decision" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="IN_PROGRESS" sequence="0" value="in_progress"/>
-                <element inactive_on_update="false" label="PROCEED" sequence="1" value="proceed"/>
-                <element inactive_on_update="false" label="SKIP_REPAIR" sequence="2" value="skip_repair"/>
-            </choice>
-        </element>
+        <element label="Revert Mitigation" max_length="40" name="revert_mitigation" read_only="true" type="boolean"/>
         <element choice="1" label="Symptom" max_length="40" name="symptom" type="choice">
             <choice>
                 <element inactive_on_update="false" label="bad-fabric-module" sequence="1" value="bad_fabric_module"/>
@@ -31,6 +27,15 @@
         </element>
         <element label="Broken Device" max_length="32" name="broken_device" read_only="true" reference="x_1635914_networ_0_device" type="reference"/>
         <element label="Child Incidents" max_length="32" name="child_incidents" reference="x_1635914_networ_0_network_incident" type="reference"/>
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_prioritization" label="Last Prioritization Result" max_length="40" name="last_prioritization_result" read_only="true" type="string">
+            <choice/>
+        </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Broken Component" mandatory="true" max_length="32" name="broken_component" reference="x_1635914_networ_0_component" type="reference" use_dependent_field="true"/>
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_tests" label="Last Test Result" max_length="40" name="last_test_result" read_only="true" type="string">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_diagnosis" label="Last Diagnosis Result" max_length="40" name="last_diagnosis_result" read_only="true" type="string">
+            <choice/>
+        </element>
     </element>
 </database>

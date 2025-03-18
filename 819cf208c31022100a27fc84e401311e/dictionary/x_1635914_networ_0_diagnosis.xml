@@ -1,36 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="669507c0c35022100a27fc84e40131ca" label="Diagnosis" max_length="40" name="x_1635914_networ_0_diagnosis" type="collection">
-        <element choice="3" default="1" label="State" max_length="40" name="state" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="Closed Skipped" sequence="5" value="5"/>
-                <element inactive_on_update="false" label="Canceled" sequence="7" value="7"/>
-                <element inactive_on_update="false" label="Completed with errors" sequence="6" value="6"/>
-                <element inactive_on_update="false" label="Open" sequence="1" value="1"/>
-                <element inactive_on_update="false" label="Work In Progress" sequence="2" value="2"/>
-                <element inactive_on_update="false" label="Closed Complete" sequence="3" value="3"/>
-                <element inactive_on_update="false" label="Closed Incomplete" sequence="4" value="4"/>
-                <element inactive_on_update="false" label="Pending" sequence="-5" value="-5"/>
-            </choice>
-        </element>
-        <element label="Network Incident" max_length="32" name="network_incident" reference="x_1635914_networ_0_network_incident" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;})(current);" label="Execution Instance #" max_length="40" name="execution_instance" read_only="true" type="integer"/>
-        <element label="Response" max_length="500" name="response" type="string_full_utf8"/>
-        <element choice="1" label="Result" max_length="40" name="result" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="REBOOT" sequence="0" value="reboot"/>
-                <element inactive_on_update="false" label="TEST" sequence="4" value="test"/>
-                <element inactive_on_update="false" label="VENDOR_DIAGNOSIS" sequence="1" value="vendor_diagnosis"/>
-                <element inactive_on_update="false" label="RMA" sequence="2" value="rma"/>
-                <element inactive_on_update="false" label="ESCALATION" sequence="3" value="escalation"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <index name="index">
-            <element name="network_incident"/>
-        </index>
-        <index name="index2">
-            <element name="sys_class_name"/>
-        </index>
-    </element>
+    <element db_object_id="f6ca7b55c314a6100a27fc84e401314b" extends="x_1635914_networ_0_external_services_base" label="Diagnosis" max_length="40" name="x_1635914_networ_0_diagnosis" type="collection"/>
 </database>

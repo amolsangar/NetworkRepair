@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9893cb00c35022100a27fc84e40131f6" label="Mitigation" max_length="40" name="x_1635914_networ_0_mitigation" type="collection">
-        <element choice="3" default="not_started" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="RUNNING" sequence="1" value="running"/>
-                <element inactive_on_update="false" label="NOT_STARTED" sequence="0" value="not_started"/>
-                <element inactive_on_update="false" label="ERROR" sequence="3" value="error"/>
-                <element inactive_on_update="false" label="COMPLETED" sequence="2" value="completed"/>
-            </choice>
-        </element>
-        <element label="Network Incident" max_length="32" name="network_incident" reference="x_1635914_networ_0_network_incident" type="reference"/>
-        <element label="Drain Reason" max_length="40" name="drain_reason" type="string"/>
-        <element label="Device" max_length="32" name="device" reference="x_1635914_networ_0_device" type="reference"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element choice="1" display="true" label="Result" max_length="40" name="result" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="DRAINED" sequence="0" value="drained"/>
-                <element inactive_on_update="false" label="UNDRAINED" sequence="1" value="undrained"/>
-                <element inactive_on_update="false" label="ERROR" sequence="2" value="error"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    <element db_object_id="244977d1c314a6100a27fc84e4013142" extends="x_1635914_networ_0_external_services_base" label="Mitigation" max_length="40" name="x_1635914_networ_0_mitigation" type="collection">
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="UNDRAIN" sequence="1" value="undrain"/>
-                <element inactive_on_update="false" label="DRAIN" sequence="0" value="drain"/>
+                <element inactive_on_update="false" label="Drain" sequence="0" value="drain"/>
+                <element inactive_on_update="false" label="Undrain" sequence="1" value="undrain"/>
+                <element inactive_on_update="false" label="Unisolate then undrain" sequence="3" value="unisolate_then_undrain"/>
+                <element inactive_on_update="false" label="Drain then isolate" sequence="2" value="drain_then_isolate"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="device"/>
-        </index>
-        <index name="index2">
-            <element name="network_incident"/>
-        </index>
-        <index name="index3">
-            <element name="sys_class_name"/>
-        </index>
+        <element label="Drain Reason" max_length="40" name="drain_reason" type="string"/>
     </element>
 </database>

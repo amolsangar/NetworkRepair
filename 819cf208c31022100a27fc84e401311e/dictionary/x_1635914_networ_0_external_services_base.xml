@@ -13,7 +13,7 @@
                 <element inactive_on_update="false" label="Completed with errors" sequence="6" value="6"/>
             </choice>
         </element>
-        <element choice="1" label="Service Name" max_length="40" name="service_name" type="choice">
+        <element choice="1" label="Service Name" max_length="40" name="service_name" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Diagnosis" sequence="0" value="diagnosis"/>
                 <element inactive_on_update="false" label="Mitigation" sequence="1" value="mitigation"/>

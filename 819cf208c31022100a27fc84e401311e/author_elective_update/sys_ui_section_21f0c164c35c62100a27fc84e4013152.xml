@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Repair Data" section_id="21f0c164c35c62100a27fc84e4013152" sys_domain="global" table="x_1635914_networ_0_network_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>4ca86cd5c31466100a27fc84e4013185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broken_component</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e4013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>symptom</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e4013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitigation</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e4013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>correlation_decision</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>broken_device</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>repair_priority</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>diagnosis</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>80a86cd5c31466100a27fc84e401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-14 07:15:35</sys_created_on>
+            <sys_id>88a86cd5c31466100a27fc84e401318d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-14 07:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Repair Data</caption>
+            <header>false</header>
+            <name>x_1635914_networ_0_network_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-12 01:06:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21f0c164c35c62100a27fc84e4013152</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1635914_networ_0_network_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+            <sys_update_name>sys_ui_section_21f0c164c35c62100a27fc84e4013152</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-12 01:20:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</application>
+        <file_path/>
+        <instance_id>e9010afe1bb9f5d0ba5ceb9b2d4bcb6d</instance_id>
+        <instance_name>dev185153</instance_name>
+        <name>sys_ui_section_21f0c164c35c62100a27fc84e4013152</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Repair Data" section_id="21f0c164c35c62100a27fc84e4013152" sys_domain="global" table="x_1635914_networ_0_network_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>phase</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>4ca86cd5c31466100a27fc84e4013185</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>broken_component</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e4013186</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>symptom</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e4013187</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mitigation</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e4013187</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>correlation_decision</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e4013188</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e4013188</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e4013189</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>broken_device</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e4013189</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>repair_priority</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e401318a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>diagnosis</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e401318a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e401318b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e401318b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e401318c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes_list</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e401318c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>80a86cd5c31466100a27fc84e401318d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments_and_work_notes</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-14 07:15:35</sys_created_on><sys_id>88a86cd5c31466100a27fc84e401318d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Repair Data" display_value="Repair Data" name="x_1635914_networ_0_network_incident" sys_domain="global" view="Default view">21f0c164c35c62100a27fc84e4013152</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-14 07:15:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Repair Data</caption><header>false</header><name>x_1635914_networ_0_network_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-12 01:06:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>21f0c164c35c62100a27fc84e4013152</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1635914_networ_0_network_incident</sys_name><sys_overrides/><sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package><sys_policy/><sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope><sys_update_name>sys_ui_section_21f0c164c35c62100a27fc84e4013152</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-12 01:20:39</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>528503988</payload_hash>
+        <record_name>Network Incident</record_name>
+        <reverted_from/>
+        <source>e85737ccc31422100a27fc84e40131d5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 07:15:36</sys_created_on>
+        <sys_id>c8a86cd5c31466100a27fc84e4013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19593822a1f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 07:15:36</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>80a86cd57d14661041b245a3c33a6290</update_guid>
+        <update_guid_history>80a86cd57d14661041b245a3c33a6290:528503988,f486d09dde906610bf711c5da9b24826:-827747581,95061f81af9c26107fc9a4409ec1e97f:-50281806,13029b4d185c2610ef97e6d2b082141a:528503988,0a09de7c2094e210d3e876a4eed54f90:345854864,5438de3c0694e2107761a09440ee8609:-1866846356,07911a348b94e21065a6703482d0931e:-581321031,2a31def0d794e2104185d584c479392d:-1371266174,5cda49a0059c6210ee85b63073e33a5d:-1898438583,55344568b55c6210bfc652ff3b6ba7f2:1825037945,aea2c5e4275c6210af50610cfe248231:-1471763453,51a101a4d55c6210ed257ab5dc8bf4ef:242235732,75f0c1647e5c62104ba74f5c1fbbc9d0:1229598033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 07:42:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>9ac27078e20c4a4c91d3481018cee704</sys_id>
+        <sys_metadata>21f0c164c35c62100a27fc84e4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Repair Data</sys_name>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_parent display_value="Network Incident">a8962914c35c22100a27fc84e4013188</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_scope_delete display_value="">1a2651c08dbb4e7484dff2647f9418a1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_21f0c164c35c62100a27fc84e4013152</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_21f0c164c35c62100a27fc84e4013152">c8a86cd5c31466100a27fc84e4013190</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 07:42:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

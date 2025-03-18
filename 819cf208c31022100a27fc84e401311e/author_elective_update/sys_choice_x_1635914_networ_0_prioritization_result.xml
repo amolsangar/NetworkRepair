@@ -20,76 +20,76 @@
             <element>result</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Prioritized_P0</label>
+            <label>P0</label>
             <language>en</language>
             <name>x_1635914_networ_0_prioritization</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-14 22:19:21</sys_created_on>
+            <sys_created_on>2025-03-18 08:29:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-14 22:19:21</sys_updated_on>
-            <value>prioritized_p0</value>
+            <sys_updated_on>2025-03-18 08:29:50</sys_updated_on>
+            <value>p0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>result</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Prioritized_P1</label>
+            <label>P1</label>
             <language>en</language>
             <name>x_1635914_networ_0_prioritization</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-14 22:19:21</sys_created_on>
+            <sys_created_on>2025-03-18 08:29:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-14 22:19:21</sys_updated_on>
-            <value>prioritized_p1</value>
+            <sys_updated_on>2025-03-18 08:29:50</sys_updated_on>
+            <value>p1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>result</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Prioritized_P2</label>
+            <label>P2</label>
             <language>en</language>
             <name>x_1635914_networ_0_prioritization</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-14 22:19:21</sys_created_on>
+            <sys_created_on>2025-03-18 08:29:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-14 22:19:21</sys_updated_on>
-            <value>prioritized_p2</value>
+            <sys_updated_on>2025-03-18 08:29:50</sys_updated_on>
+            <value>p2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>result</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Prioritized_P3</label>
+            <label>P3</label>
             <language>en</language>
             <name>x_1635914_networ_0_prioritization</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-14 22:19:21</sys_created_on>
+            <sys_created_on>2025-03-18 08:29:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-14 22:19:21</sys_updated_on>
-            <value>prioritized_p3</value>
+            <sys_updated_on>2025-03-18 08:29:50</sys_updated_on>
+            <value>p3</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -18,8 +18,8 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Update Execution Instance Count</name>
-        <order>100</order>
+        <name>Set Execution Instance Count</name>
+        <order>110</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -29,11 +29,15 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	var gr = new GlideRecord('x_1635914_networ_0_diagnosis');
-	gr.addQuery('network_incident',current.network_incident);
-	gr.query();
-	
-	current.execution_instance = gr.getRowCount() + 1;
+	var agg = new GlideAggregate(current.getTableName());
+	agg.addQuery('network_incident',current.network_incident);
+	agg.addAggregate('COUNT');
+	agg.query();
+
+	if (agg.next()) {
+		var count = parseInt(agg.getAggregate('COUNT'), 10);
+		current.execution_instance = count + 1;
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -42,17 +46,28 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>54703b15c3d0a6100a27fc84e401312c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Update Execution Instance Count</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set Execution Instance Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name>sys_script_54703b15c3d0a6100a27fc84e401312c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 21:48:36</sys_updated_on>
+        <sys_updated_on>2025-03-17 08:45:57</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=54703b15c3d0a6100a27fc84e401312c"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>54703b15c3d0a6100a27fc84e401312c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 08:31:08</sys_created_on>
+        <sys_id>c4b6d896c39c6a100a27fc84e40131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 08:31:08</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
