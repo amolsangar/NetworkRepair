@@ -9,5 +9,6 @@
             </choice>
         </element>
         <element label="Drain Reason" max_length="40" name="drain_reason" type="string"/>
+        <element label="Drain Entity" max_length="40" name="drain_entity" type="string"/>
     </element>
 </database>

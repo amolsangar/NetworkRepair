@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>5aeae787c3d4ae100a27fc84e4013101</answer>
+        <condition table="var__m_sys_decision_input_124823c3c3d4ae100a27fc84e4013148">trigger_network_incident_record.revert_mitigation=true^trigger_network_incident_record.last_mitigation_result=unisolated_and_undrained^trigger_network_incident_record.last_test_result=pass^EQ<item endquery="false" field="trigger_network_incident_record.revert_mitigation" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Unisolated and Undrained" endquery="false" field="trigger_network_incident_record.last_mitigation_result" goto="false" newquery="false" operator="=" or="false" value="unisolated_and_undrained"/>
+            <item display_value="Pass" endquery="false" field="trigger_network_incident_record.last_test_result" goto="false" newquery="false" operator="=" or="false" value="pass"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Close Network Incident?">124823c3c3d4ae100a27fc84e4013148</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_124823c3c3d4ae100a27fc84e4013148</input_table>
+        <label>Close Incident?_150</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>150</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 07:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1eeae787c3d4ae100a27fc84e401311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Incident?_150</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name>sys_decision_question_1eeae787c3d4ae100a27fc84e401311d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 07:53:48</sys_updated_on>
+    </sys_decision_question>
+</record_update>

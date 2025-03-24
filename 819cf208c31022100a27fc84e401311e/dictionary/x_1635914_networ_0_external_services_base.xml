@@ -15,11 +15,12 @@
         </element>
         <element choice="1" label="Service Name" max_length="40" name="service_name" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Diagnosis" sequence="0" value="diagnosis"/>
-                <element inactive_on_update="false" label="Mitigation" sequence="1" value="mitigation"/>
-                <element inactive_on_update="false" label="Tests" sequence="4" value="tests"/>
-                <element inactive_on_update="false" label="Escalation" sequence="3" value="escalation"/>
-                <element inactive_on_update="false" label="Prioritization" sequence="2" value="prioritization"/>
+                <element inactive_on_update="false" label="Diagnosis" sequence="2" value="diagnosis"/>
+                <element inactive_on_update="false" label="Mitigation" sequence="0" value="mitigation"/>
+                <element inactive_on_update="false" label="Tests" sequence="5" value="tests"/>
+                <element inactive_on_update="false" label="Escalation" sequence="4" value="escalation"/>
+                <element inactive_on_update="false" label="Action" sequence="3" value="action"/>
+                <element inactive_on_update="false" label="Prioritization" sequence="1" value="prioritization"/>
             </choice>
         </element>
         <element label="Response" max_length="1000" name="response" type="string_full_utf8"/>

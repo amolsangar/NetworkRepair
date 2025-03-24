@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d0b3fbd9c3d0a6100a27fc84e40131da" extends="x_1635914_networ_0_external_services_base" label="Escalation" max_length="40" name="x_1635914_networ_0_escalation" type="collection">
-        <element label="Reason" max_length="40" name="reason" type="string"/>
+        <element choice="3" default="gno" label="Escalate To" max_length="40" name="escalate_to" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GNO" sequence="1" value="gno"/>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="internal"/>
+                <element inactive_on_update="false" label="SRE" sequence="2" value="sre"/>
+                <element inactive_on_update="false" label="AlphaRepair" sequence="3" value="alpharepair"/>
+            </choice>
+        </element>
+        <element choice="3" default="general" label="Reason" max_length="40" name="reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RMA" sequence="2" value="rma"/>
+                <element inactive_on_update="false" label="Vendor Diagnosis" sequence="1" value="vendor_diagnosis"/>
+                <element inactive_on_update="false" label="Investigation" sequence="0" value="investigation"/>
+            </choice>
+        </element>
+        <element label="Escalation Bug ID" max_length="40" name="escalation_bug_id" type="string"/>
         <element label="Comments" max_length="40" name="comments" type="journal"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <index name="index">
