@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=595349000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=619946000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>execute_g3_service</internal_name>
-        <label_cache>[{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_id","label":"2 - Look Up Record➛Queue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"ecc_queue","column_name":"sys_id","usedInstances":{}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.queue","label":"2 - Look Up Record➛Queue Record➛Queue","reference":"","reference_display":"Queue","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"queue","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"input","used":false,"image":"","selected":false,"missing":false,"rawLabel":"input","value":"input","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"output","used":false,"image":"","selected":false,"missing":false,"rawLabel":"output","value":"output","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.response","label":"4 - Parse ECC Queue Response➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["response-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"fa86ae42-2ad9-4a03-8fbb-1206e4286884"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.status_code","label":"4 - Parse ECC Queue Response➛Status Code","reference_display":"Status Code","type":"integer","base_type":"integer","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["status_code-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b00fc66c-b744-4dc9-a973-648956343608"}},{"name":"subflow.status_code","label":"Input➛Status Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["status_code"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2dc4503-4701-4e5d-9aeb-0d497119218b"}},{"name":"subflow.response","label":"Input➛Response","type":"string","base_type":"string","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["response"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ae12b0cf-b642-4c91-8249-a662b47e9ca7"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["network_incident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"287ac2fb-12d6-4149-9753-11b67d68f0b4","uiTypeLabel":"Reference"}},{"name":"subflow.service_name","label":"Input➛Service Name","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"service_name","choices":[],"usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["service_name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1f16967f-acdf-4a05-ad41-cf8e3d0316c8"}},{"name":"a3cc3363-845e-44d2-85a7-33c41b9a7b72.ecc_sys_id","label":"1 - Create ECC Queue Request➛ECC Sys ID","reference_display":"ECC Sys ID","type":"string","base_type":"string","usedInstances":{"92b4c0de-7b67-4781-a848-06fac9129cfb":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"658dd511-1850-44fd-8bc2-c0e9b1f6442f"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record","label":"2 - Look Up Record➛Queue Record","reference":"ecc_queue","reference_display":"Queue","type":"reference","base_type":"reference","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["ecc_queue_record"],"1bcb69c5-ffc8-4d11-88dd-3640191b9c84":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.state","label":"2 - Look Up Record➛Queue Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"state","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"ready","used":false,"image":"","selected":false,"missing":false,"rawLabel":"ready","value":"ready","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processed","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processed","value":"processed","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"error","used":false,"image":"","selected":false,"missing":false,"rawLabel":"error","value":"error","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processing","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processing","value":"processing","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.state","label":"4 - Parse ECC Queue Response➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["state-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8e6e8260-1206-40f5-8bb5-a69f220f0b38"}}]</label_cache>
+        <label_cache>[{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_updated_on","label":"2 - Look Up Record➛Queue Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"ecc_queue","column_name":"sys_updated_on","usedInstances":{"1a663658-2a95-4281-a236-c9c9deb659f2":["timer_duration"],"5e62dacd-1709-435f-b656-d345b2d41df6":["timer_duration"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.state","label":"4 - Parse ECC Queue Response➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["state-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8e6e8260-1206-40f5-8bb5-a69f220f0b38"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.state","label":"2 - Look Up Record➛Queue Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"state","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"ready","used":false,"image":"","selected":false,"missing":false,"rawLabel":"ready","value":"ready","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processed","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processed","value":"processed","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"error","used":false,"image":"","selected":false,"missing":false,"rawLabel":"error","value":"error","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processing","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processing","value":"processing","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"],"906cc164-65ef-4902-a61b-41478c985414":["condition"]}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record","label":"2 - Look Up Record➛Queue Record","reference":"ecc_queue","reference_display":"Queue","type":"reference","base_type":"reference","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["ecc_queue_record"],"1bcb69c5-ffc8-4d11-88dd-3640191b9c84":["record"],"547ba912-94f3-46e6-b298-4d752720bbf4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3cc3363-845e-44d2-85a7-33c41b9a7b72.ecc_sys_id","label":"1 - Create ECC Queue Request➛ECC Sys ID","reference_display":"ECC Sys ID","type":"string","base_type":"string","usedInstances":{"92b4c0de-7b67-4781-a848-06fac9129cfb":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"658dd511-1850-44fd-8bc2-c0e9b1f6442f"}},{"name":"subflow.service_name","label":"Input➛Service Name","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"service_name","choices":[],"usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["service_name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1f16967f-acdf-4a05-ad41-cf8e3d0316c8"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["network_incident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"287ac2fb-12d6-4149-9753-11b67d68f0b4","uiTypeLabel":"Reference"}},{"name":"subflow.response","label":"Input➛Response","type":"string","base_type":"string","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["response"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ae12b0cf-b642-4c91-8249-a662b47e9ca7"}},{"name":"subflow.status_code","label":"Input➛Status Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["status_code"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2dc4503-4701-4e5d-9aeb-0d497119218b"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.status_code","label":"3 - Parse ECC Queue Response➛Status Code","reference_display":"Status Code","type":"integer","base_type":"integer","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["status_code-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b00fc66c-b744-4dc9-a973-648956343608"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.response","label":"4 - Parse ECC Queue Response➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["response-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"fa86ae42-2ad9-4a03-8fbb-1206e4286884"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.queue","label":"2 - Look Up Record➛Queue Record➛Queue","reference":"","reference_display":"Queue","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"queue","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"input","used":false,"image":"","selected":false,"missing":false,"rawLabel":"input","value":"input","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"output","used":false,"image":"","selected":false,"missing":false,"rawLabel":"output","value":"output","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_id","label":"2 - Look Up Record➛Queue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"ecc_queue","column_name":"sys_id","usedInstances":{}}]</label_cache>
         <master_snapshot>bbc60796c3d8aa100a27fc84e4013174</master_snapshot>
         <master_snapshot_digest/>
         <name>Execute on-prem g3 service Subflow</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bab7a12c398aa100a27fc84e401313b</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Execute on-prem g3 service Subflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name>sys_hub_flow_6bab7a12c398aa100a27fc84e401313b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:28</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -407,7 +407,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c858b16c3d8aa100a27fc84e4013188"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6bab7a12c398aa100a27fc84e401313b"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6bab7a12c398aa100a27fc84e401313b"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6bab7a12c398aa100a27fc84e401313b^sys_idNOT IN28858b16c3d8aa100a27fc84e4013190,64858b16c3d8aa100a27fc84e4013192,ae764f56c3d8aa100a27fc84e4013111,e3ba1aa0c36022100a27fc84e40131d9"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6bab7a12c398aa100a27fc84e401313b^sys_idNOT IN28858b16c3d8aa100a27fc84e4013190,5498fb60c3a822100a27fc84e401310a,64858b16c3d8aa100a27fc84e4013192,ae764f56c3d8aa100a27fc84e4013111"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create ECC Queue Request">32d28752c3d8aa100a27fc84e4013122</action_type>
         <action_type_parent display_value="Create ECC Queue Request">3374b2dec358aa100a27fc84e4013168</action_type_parent>
@@ -423,12 +423,34 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:14:56</sys_created_on>
         <sys_id>28858b16c3d8aa100a27fc84e4013190</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:55:56</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:52:02</sys_updated_on>
         <ui_id>a3cc3363-845e-44d2-85a7-33c41b9a7b72</ui_id>
         <values>H4sIAAAAAAAA/71V207jMBD9lSrPTZVbk27fECwS0lJWC8sLQtHUmRQLxwm2UyhV/33tJm1NKNdd9jHjM5kzZ3w8V0uHZs7YCTELRskwIGE2AvA9D4IkJ6MII88P/SBy+g6HAjWSo7ovxW1KOaEZcqVP5sBqc7Rcynqas/J+0AWtVhqWUVkxWFy2aB0hN5RlArkzvrruOxUIXUKhcMbLztF7OTKYItPQSVO/d7Ij+TJ9tajMicAcdUGCbehH+69fVrwUmaHn9x18UMgz1LxyYBL7TgE8A1WKhTNWotYBgZCdcbbYIm6oLrfuu4AHSR910TDoW3XHzkPqx+Hwmx+lDc/US/cQ3makraT7O86PQMG5JkNULbaKl5SgbFTNMIeaqUM71gDOKkVL3qQomLL3cyMlqws+acR2tjWsoddS88bKqGf0aMXJz2/K+63Ux5SvhW4PWUmAWVAEQW6OKTJzLaaivEWekrKoSt6QAKUEndbKNLV0anrxfMJNcN+MkWGhf5MWUFWUz9JKlHO6ZqObKwYzpj8G5pbrLiSd8QEQI9ZATx8Gxzp+tA5fgqBGuVP9G51sKv7m9K7GE0M6DyKMg8B34zBJ3CgDdCEZRW4exnEyHEUBIYmz6jtyIQ8ZSLkTVDeR3tVGjkbeVsi0GZdJIYJW6kCTmmOr2aq/sTm8aiHY+USimOuLkK4/91ncBuyz9yvID9r+bc4b2583lXqThvT+Vlq7Nxe94/XDTbA1evBVRn/BxW+6drnt1XV7E33fe65rjWfH3DMz32BPqaIzWFt6hy3s4OZhs7N+CloKDXrsZlbdg41advYRhRkvJZVWYmbF2pzQzjkgnUpAnlaIbPR3qV+FLje0g23W0M66QKlsTqr9brHxat/D+G7Z/U/JHvyV7OEnZI8+JPvwU7LHH5A9WT3fPf7ry8cYU3BgaetvmU5BYncFdcz/BevohWWzfV+ebprtC/Nf1owXjHzwMHb9wMvdyItHLvjEcxMvR08/o99i8P/hmrn+Awyzg95PCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment>Processsing done</comment>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Execute on-prem g3 service Subflow">6bab7a12c398aa100a27fc84e401313b</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 00:44:21</sys_created_on>
+        <sys_id>5498fb60c3a822100a27fc84e401310a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 00:52:02</sys_updated_on>
+        <ui_id>547ba912-94f3-46e6-b298-4d752720bbf4</ui_id>
+        <values>H4sIAAAAAAAA/+2XXW+jOBSG/8qI6zhrwIDp3ShJtZW6U23Snb2YnUW2OW4sEcjw0Zls1f++BpxCQpppZ9JKleaSA8e85/V5OPjTnaVi68wioQDKiE0D28HYxr7vCmZz7vqCYw7EGlkpW4F+MgeR5bG+vmVJVQfu7kKHE4FjQAH3A0QCaiNGCUXYl0yEthMKycfzJu/+XmfGqlgnbPPRLKAjYqmSOIfUOvv0eWStWa7fVUJund3t3Xqq2IRxSPSj863affXlZl1fx5moVpCWkdoGL03m1Nx5dzHVd3RSLcceWfCthDQGrUOypICRtWJpzMos31hnZV7pQA4svkqTzcMTS5WWbZ0r9q1Q/+kXu079nARdmDAePFxGxp82LKesZAu9siir/MGuTAkoWktikKxKykk/1j5wtS5VlrYpJePJNjtLqlX6oTXEeligtx1VoUXAuq6zVt6WJRfL7Ot8K/JcpY0jpsQkEyx5uGJlmStelbWcO6tS14fMbsOH7ZYq0dsfNaKjIqvyxqT5bHI1n0Z/v7+e/D6bR/PZ4np+Mbme1RmQQLP0iq3XKr2J1nl2qxqFut7V+CbRF2OZZF91YYW6ScdM1OaM9dax8bmOT5vwR5ar+qV/6GV0cq3yr1R9qeCiaTwpbdf2fWTb2EXE5j4KKXgIg8eI5xDf8x3rfmQVm2KSsKLoPNabG32paotax423UbM9bZlNh9bJIlfr8r2WdwvG0fvRFlPvaOezrtF7a3aoghBaBVQwhPBPE34mid/XsyXxumnAw/oMjIPYZT/33Yf2hkHROY6iiXQstk18AEWK3xCKpqyfZ3HH610Ud9xWRdQ2pBHdrPpavDk2DSnhLnI58RAJpUQUU4IIMCw8Jw6ILX6At+9Sdny+yK6LRZbGqq6r6FFWlKyEfyqM3Vi7ohuhgPjfq3kvDHme5UMGn5540nkpe5RO+gUdKtKgOohdHlrAoOqeamoSjN8SrKeamztm77K6Y/erMAkx9bmHKQJJKSJuQJH+xXOQ77PYtomIJX7ZGYjjY90se7+qpVpBVpWRTNhNj088JG/7VXseV09QsuVqljYfVaPoUYmGLp5lCbB0fwrqdvrt3Cg1aJFnTsFjbL0hsk42Bjun92Zg3+tX4UoIRvVQYyh0BSDic4GoFBK5wD3pepzyAL/ArBPHezgctmpc5azZxY6oE5zpnqBjy9K0E/C4NENSszf78cvhQgYn7xdOP4XTwO69Q15346WYWuq8KdsUdVfkFQwpA5sFHq/PbQwRJ7QRC4mDQh8CIJL6LgtfgDJqH+1uOWzlQiwhrhI4LWVP0LGlbNEJeFyaoaxr9F3A5r24Icw/GWF08DMoVmlf3CHeelW9Se7kAlgulucKkno/zfntERr727ILYn9jXme6OY6tjy8C2bH+dSSO7yDqkgAFIeWY6NbjLpyQu8//A57WQrPYFAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
@@ -445,10 +467,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:14:56</sys_created_on>
         <sys_id>64858b16c3d8aa100a27fc84e4013192</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:55:56</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:52:02</sys_updated_on>
         <ui_id>92b4c0de-7b67-4781-a848-06fac9129cfb</ui_id>
         <values>H4sIAAAAAAAA/+VYUW/iOBD+K1GegUtIINC3Uyuklfa2um1vX/ZWlmM7xVrjZB2nXYr47zuOHYiAAtFSqdU+ejy2v5n5vrGTryufU//Kp9Ngmk2no0kSBFEUBONxRHCYptGYpEGKY7/nS7xg4KlxKhgMH7GozJgRgn5UrDI2ystC4OUXN/WvM5M5F1Qx6V99/dbzC6xgJ82Uf7XamToXisApE+B677DsQNPLYjNE9Zy1fWwv8z7ZiVxRAyXo+eynZpIywJBhUbKev8CSYp2r5caiGKa3UmwNcy417Ogb558lf4ZzJ4HxyxhERZid2wyRy5A1ZzdY4zutKqIr5VzJPOeElTYflGW4Evq6bbMOt4XmubRLbNh2dS6qhfxk0+FvNmgKApaqBBCsMIEa5C6M7G6eP31uUM64rHPiJkVOsNiMsNaKp5U2eFY+E2wBG6EFLgouH1Ch8kdeLwYsi8GDgMEgE/kTHFryBznAxAAfQF7xYAb2m9r8BStuovgHtoHFAIgLYAiyJSzzStWpfEREVGU9obAs7V7+uueXy/Ja4LLcRg4pB1oa3DYPLmJkk2aWEMUL/Tds8chccOteo4bRUQpOt5QjuaTcoChbkgA0iNP/K1hMVyscERJF46g/iUesH8d02J+McNKPIhKH6RQnaTIcGBXZZev1vpB+f8OOEjwdfyPB63YCDiXFiXHP9vHQBk6M4cXEGAfBe5IjHP721NhdXzYFJ0QW0qMko1s+lbnSyOaypbJ9mXTm+RkQGp7fGmZ66fIlVI7mGWeCHrpzZmZi584Z/pl3zpskOQCiyFaPS8Fl/YAAoK/F/tFR6qXhDs9qerVuGGPDJdnXAPZ07j13VsIZcBol3MHZ3r3FcwBi0+9ryuz2+sboBBBdTADR8DICWG3C3CTyQM6bN6OpZuP/bPzxrj9QsLUgXB8SWKczw65nDtf7Ao46KbhNNjtz8wLnLvy4fEGRvddsAXNY6s5DVr/oidMHprenN140109YfD807xiHmkLV4b3CQzU8+q2Uth6qPEMLqBwv4D2tGAFylAgrhrK8khS5l/SWSKaSGVelds77jeYzA/1ILwdhenrOvNrb23h3vIhPx9Gk8kPmNYG400oPAvHqQLxNIN3C7tK04gs+Ti/dtGaYi7oa8JFUtD/SlcrVC43rRCGPMOLMrnYmqPCioH6/7R2SwMH2dwLru/jivnxrIgyn8RCPkygMgyAMaBJMkiScjNNsjJM422oUoVIS6KawcwZUge1RQ42mzsF+/7EttWujOQNVQ8GbXJov7mGiPQML6us1sE4Ddw0lzXPBsNzpKPdwT/w1c/gdX0dvrqu8i/9PFb/fzbQ1Hcz1a70bKv6f5D8q9sFQbMKC4SSkpD9JwqQfZ3Tcn1I86uNpOkoiykicXfIp8O0X+287UMMVAAA=</values>
     </sys_hub_action_instance_v2>
@@ -467,34 +489,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:19:10</sys_created_on>
         <sys_id>ae764f56c3d8aa100a27fc84e4013111</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:55:56</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:52:02</sys_updated_on>
         <ui_id>d50f3188-d71c-46f2-b5be-28df29f3f031</ui_id>
         <values>H4sIAAAAAAAA/42SXW+bMBSG/0rla0BASCC5m9JFmrStarr1pqrQwT5OLBnDjEmbRfnvOw4sRd0m7dLv+XrPc/x0YkqwFYvlPOVVkvKZKACSOIY0l7zIMIuTWZJWLGAGaqRM5Lz80WOPpUXeWEGRA+jeh06nZVplPBYY5tUiD7O8SEIosiKMFxL4MkmXXFbR9lJ3PlOlUF2r4fg4NiCF75UWFg1bPT0HrAVLUx1atjq9C/2vbQ0Vakr9uF7f3HvfN9vfvv+9kTu2PmJRIg3kOEqfx17biU4F3l4SMHx1aASSLwm6w4DVYAS4xh6vikUQd0a/CXtl3LB4Da+d+klTZ2kwGTyxxyZ6OZKj+P0Yk7fg4MHZnrveXmk2imM3EBMoodduPdWGhLvWqcYMJQ4q/X4sb3Rfm68DLnbtNDlb35ElbP3+fqFxO/mwb16usDbKXFCNQd1w0JNUBMv3G4XaH9Y1reLUF5yzquqd93tivfr252EG8W+nQY012SlraFtldmVrm4O6WKCN6min6RFJ3byQ9U7tTATcc4joaBBtSL+9yI9glYfyhdpQsZ/43Shi88k7XWYz+ti4DMVcAn35ahZWeZaGIs+LeYwQzxdzdg5Yd+zWGrrujSItQYQ9g4HpSK8cLuFLuFWt+0CmDjiCOj//AgUyi5qyAwAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
-        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
-        <attributes/>
-        <comment>Wait until request is processed</comment>
-        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Execute on-prem g3 service Subflow">6bab7a12c398aa100a27fc84e401313b</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-24 17:54:25</sys_created_on>
-        <sys_id>e3ba1aa0c36022100a27fc84e40131d9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:55:56</sys_updated_on>
-        <ui_id>1bcb69c5-ffc8-4d11-88dd-3640191b9c84</ui_id>
-        <values>H4sIAAAAAAAA/+2XXW+jOBSG/8qI6zhrwIDp3ShJtZW6U23Snb2YnUW2OW4sEcjw0Zls1f++BpxCQpppZ9JKleaSA8e85/V5OPjTnaVi68wioQDKiE0D28HYxr7vCmZz7vqCYw7EGlkpW4F+MgeR5bG+vmVJVQfu7kKHE4FjQAH3A0QCaiNGCUXYl0yEthMKycfzJu/+XmfGqlgnbPPRLKAjYqmSOIfUOvv0eWStWa7fVUJund3t3Xqq2IRxSPSj863affXlZl1fx5moVpCWkdoGL03m1Nx5dzHVd3RSLcceWfCthDQGrUOypICRtWJpzMos31hnZV7pQA4svkqTzcMTS5WWbZ0r9q1Q/+kXu079nARdmDAePFxGxp82LKesZAu9siir/MGuTAkoWktikKxKykk/1j5wtS5VlrYpJePJNjtLqlX6oTXEeligtx1VoUXAuq6zVt6WJRfL7Ot8K/JcpY0jpsQkEyx5uGJlmStelbWcO6tS14fMbsOH7ZYq0dsfNaKjIqvyxqT5bHI1n0Z/v7+e/D6bR/PZ4np+Mbme1RmQQLP0iq3XKr2J1nl2qxqFut7V+CbRF2OZZF91YYW6ScdM1OaM9dax8bmOT5vwR5ar+qV/6GV0cq3yr1R9qeCiaTwpbdf2fWTb2EXE5j4KKXgIg8eI5xDf8x3rfmQVm2KSsKLoPNabG32paotax423UbM9bZlNh9bJIlfr8r2WdwvG0fvRFlPvaOezrtF7a3aoghBaBVQwhPBPE34mid/XsyXxumnAw/oMjIPYZT/33Yf2hkHROY6iiXQstk18AEWK3xCKpqyfZ3HH610Ud9xWRdQ2pBHdrPpavDk2DSnhLnI58RAJpUQUU4IIMCw8Jw6ILX6At+9Sdny+yK6LRZbGqq6r6FFWlKyEfyqM3Vi7ohuhgPjfq3kvDHme5UMGn5540nkpe5RO+gUdKtKgOohdHlrAoOqeamoSjN8SrKeamztm77K6Y/erMAkx9bmHKQJJKSJuQJH+xXOQ77PYtomIJX7ZGYjjY90se7+qpVpBVpWRTNhNj088JG/7VXseV09QsuVqljYfVaPoUYmGLp5lCbB0fwrqdvrt3Cg1aJFnTsFjbL0hsk42Bjun92Zg3+tX4UoIRvVQYyh0BSDic4GoFBK5wD3pepzyAL/ArBPHezgctmpc5azZxY6oE5zpnqBjy9K0E/C4NENSszf78cvhQgYn7xdOP4XTwO69Q15346WYWuq8KdsUdVfkFQwpA5sFHq/PbQwRJ7QRC4mDQh8CIJL6LgtfgDJqH+1uOWzlQiwhrhI4LWVP0LGlbNEJeFyaoaxr9F3A5r24Icw/GWF08DMoVmlf3CHeelW9Se7kAlgulucKkno/zfntERr727ILYn9jXme6OY6tjy8C2bH+dSSO7yDqkgAFIeWY6NbjLpyQu8//A57WQrPYFAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6bab7a12c398aa100a27fc84e401313b"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6bab7a12c398aa100a27fc84e401313b^sys_idNOT IN6e764f56c3d8aa100a27fc84e4013112"/>
@@ -516,10 +516,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:19:10</sys_created_on>
         <sys_id>6e764f56c3d8aa100a27fc84e4013112</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:29</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:26</sys_updated_on>
         <ui_id>a845ce05-f741-49c3-b6e5-9b3e39d25ed6</ui_id>
         <values>H4sIAAAAAAAA/+1VTWvbQBD9L3u2jFaSJSW3QAkE2gaSNJdSzGh3Nl663lW0Kyeu8X/vrCXbwaEQkh566HGf5s28Nx9ow1wf2j74O3fhvX6w7Pz7hmnJzlkm6lnd8FLksgbgaQpZpURdYJHynNc1mzALS6TIDn3rrEdCVmD6CG02cpaqGJbIioukKFWWNLMGk6yWKjtTuUpzPt0zt1viSu1bA+v7D6QQC21kh9HFjwlroSOBATt2vjn5FNYtzg00aKjSbei0fSD6W33viTdH469bEUsQ4vfJXSejkmzC8DmglUjFFBiPE7YEKyG4bn1AOgR5bc0RWGgbKBuLwc9e/6LUdZqmMVIh2RI4fD0852M7B1gsnBZ43Qbt7IAEaMzIEc70S/t1cBAHgQp6E/aDIKT3lA/bqDrKGDWp24V7utkXvNR2Z3D8aJwAc3hBoDY0fUAfZ9Hru5PmDMjn04GgwSVVnC+hbQmZt51b6V0VEr2cPhh6TJVxT6Qubu8URHQ4pW7C9JLwTzv4Hjod7X6hNESO5b5Z/djjVRy4QA6ywTLBtM6TYpbLBHKeJZVoZJOWvIBSsO2utfPHPpoamjS2Yz50lAK86HQbLkjCCkfn28l4TZxjqhQHkZ+J11s1y44r5AOEd5zSjvaBOzry/8YRvcHukTj4PbH/h/Ph/8/nHzufkgZc1MiTOq9ou7KiSBpRikTmVS4qqESZwrvPh7ZM2/h/GjZuNSoZnxKF9iT4LmJXL+LkmrZJi5fQk+t+RqtHbPsbWvN7gP0GAAA=</values>
         <workflow_reference/>
@@ -658,7 +658,7 @@
         <description>Executes g3 service based on the input network incident record and service name via MID server.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>execute_onprem_g3_service</internal_name>
-        <label_cache>[{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_id","label":"2 - Look Up Record➛Queue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"ecc_queue","column_name":"sys_id","usedInstances":{}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.queue","label":"2 - Look Up Record➛Queue Record➛Queue","reference":"","reference_display":"Queue","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"queue","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"input","used":false,"image":"","selected":false,"missing":false,"rawLabel":"input","value":"input","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"output","used":false,"image":"","selected":false,"missing":false,"rawLabel":"output","value":"output","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.response","label":"4 - Parse ECC Queue Response➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["response-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"fa86ae42-2ad9-4a03-8fbb-1206e4286884"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.status_code","label":"4 - Parse ECC Queue Response➛Status Code","reference_display":"Status Code","type":"integer","base_type":"integer","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["status_code-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b00fc66c-b744-4dc9-a973-648956343608"}},{"name":"subflow.status_code","label":"Input➛Status Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["status_code"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2dc4503-4701-4e5d-9aeb-0d497119218b"}},{"name":"subflow.response","label":"Input➛Response","type":"string","base_type":"string","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["response"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ae12b0cf-b642-4c91-8249-a662b47e9ca7"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["network_incident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"287ac2fb-12d6-4149-9753-11b67d68f0b4","uiTypeLabel":"Reference"}},{"name":"subflow.service_name","label":"Input➛Service Name","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"service_name","choices":[],"usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["service_name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1f16967f-acdf-4a05-ad41-cf8e3d0316c8"}},{"name":"a3cc3363-845e-44d2-85a7-33c41b9a7b72.ecc_sys_id","label":"1 - Create ECC Queue Request➛ECC Sys ID","reference_display":"ECC Sys ID","type":"string","base_type":"string","usedInstances":{"92b4c0de-7b67-4781-a848-06fac9129cfb":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"658dd511-1850-44fd-8bc2-c0e9b1f6442f"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record","label":"2 - Look Up Record➛Queue Record","reference":"ecc_queue","reference_display":"Queue","type":"reference","base_type":"reference","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["ecc_queue_record"],"1bcb69c5-ffc8-4d11-88dd-3640191b9c84":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.state","label":"2 - Look Up Record➛Queue Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"state","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"ready","used":false,"image":"","selected":false,"missing":false,"rawLabel":"ready","value":"ready","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processed","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processed","value":"processed","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"error","used":false,"image":"","selected":false,"missing":false,"rawLabel":"error","value":"error","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processing","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processing","value":"processing","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.state","label":"4 - Parse ECC Queue Response➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["state-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8e6e8260-1206-40f5-8bb5-a69f220f0b38"}}]</label_cache>
+        <label_cache>[{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_updated_on","label":"2 - Look Up Record➛Queue Record➛Updated","reference":"","reference_display":"Updated","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"ecc_queue","column_name":"sys_updated_on","usedInstances":{"1a663658-2a95-4281-a236-c9c9deb659f2":["timer_duration"],"5e62dacd-1709-435f-b656-d345b2d41df6":["timer_duration"]}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.state","label":"4 - Parse ECC Queue Response➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["state-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"8e6e8260-1206-40f5-8bb5-a69f220f0b38"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.state","label":"2 - Look Up Record➛Queue Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"state","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"ready","used":false,"image":"","selected":false,"missing":false,"rawLabel":"ready","value":"ready","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processed","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processed","value":"processed","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"error","used":false,"image":"","selected":false,"missing":false,"rawLabel":"error","value":"error","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"processing","used":false,"image":"","selected":false,"missing":false,"rawLabel":"processing","value":"processing","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"],"906cc164-65ef-4902-a61b-41478c985414":["condition"]}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record","label":"2 - Look Up Record➛Queue Record","reference":"ecc_queue","reference_display":"Queue","type":"reference","base_type":"reference","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["ecc_queue_record"],"1bcb69c5-ffc8-4d11-88dd-3640191b9c84":["record"],"547ba912-94f3-46e6-b298-4d752720bbf4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a3cc3363-845e-44d2-85a7-33c41b9a7b72.ecc_sys_id","label":"1 - Create ECC Queue Request➛ECC Sys ID","reference_display":"ECC Sys ID","type":"string","base_type":"string","usedInstances":{"92b4c0de-7b67-4781-a848-06fac9129cfb":["conditions"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"658dd511-1850-44fd-8bc2-c0e9b1f6442f"}},{"name":"subflow.service_name","label":"Input➛Service Name","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"service_name","choices":[],"usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["service_name"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1f16967f-acdf-4a05-ad41-cf8e3d0316c8"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"a3cc3363-845e-44d2-85a7-33c41b9a7b72":["network_incident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"287ac2fb-12d6-4149-9753-11b67d68f0b4","uiTypeLabel":"Reference"}},{"name":"subflow.response","label":"Input➛Response","type":"string","base_type":"string","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["response"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ae12b0cf-b642-4c91-8249-a662b47e9ca7"}},{"name":"subflow.status_code","label":"Input➛Status Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"d50f3188-d71c-46f2-b5be-28df29f3f031":["status_code"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2dc4503-4701-4e5d-9aeb-0d497119218b"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.status_code","label":"3 - Parse ECC Queue Response➛Status Code","reference_display":"Status Code","type":"integer","base_type":"integer","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["status_code-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b00fc66c-b744-4dc9-a973-648956343608"}},{"name":"d50f3188-d71c-46f2-b5be-28df29f3f031.response","label":"4 - Parse ECC Queue Response➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"a845ce05-f741-49c3-b6e5-9b3e39d25ed6":["response-1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"fa86ae42-2ad9-4a03-8fbb-1206e4286884"}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.queue","label":"2 - Look Up Record➛Queue Record➛Queue","reference":"","reference_display":"Queue","type":"choice","base_type":"choice","parent_table_name":"ecc_queue","column_name":"queue","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"reference":false,"label":"input","used":false,"image":"","selected":false,"missing":false,"rawLabel":"input","value":"input","parameters":{"name":"ecc_queue","dependent_values":[""]}},{"reference":false,"label":"output","used":false,"image":"","selected":false,"missing":false,"rawLabel":"output","value":"output","parameters":{"name":"ecc_queue","dependent_values":[""]}}],"usedInstances":{"d5bfd7ae-0bcf-4566-a0a5-16dcebde4bc8":["condition"]}},{"name":"92b4c0de-7b67-4781-a848-06fac9129cfb.Record.sys_id","label":"2 - Look Up Record➛Queue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"ecc_queue","column_name":"sys_id","usedInstances":{}}]</label_cache>
         <master>true</master>
         <name>Execute on-prem g3 service Subflow</name>
         <natlang/>
@@ -675,7 +675,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bbc60796c3d8aa100a27fc84e4013174</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -683,7 +683,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -1046,7 +1046,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ccd60796c3d8aa100a27fc84e40131c8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bbc60796c3d8aa100a27fc84e4013174"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=bbc60796c3d8aa100a27fc84e4013174"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bbc60796c3d8aa100a27fc84e4013174^sys_idNOT IN00d60796c3d8aa100a27fc84e40131d9,0cd60796c3d8aa100a27fc84e40131d6,8cd60796c3d8aa100a27fc84e40131d7,f8ca9aa0c36022100a27fc84e4013135"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bbc60796c3d8aa100a27fc84e4013174^sys_idNOT IN00d60796c3d8aa100a27fc84e40131d9,0cd60796c3d8aa100a27fc84e40131d6,8cd60796c3d8aa100a27fc84e40131d7,f5983f60c3a822100a27fc84e4013108"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Parse ECC Queue Response">f652cb12c3d8aa100a27fc84e4013123</action_type>
         <action_type_parent display_value="Parse ECC Queue Response">d86ffadac398aa100a27fc84e40131fb</action_type_parent>
@@ -1062,10 +1062,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:20:39</sys_created_on>
         <sys_id>00d60796c3d8aa100a27fc84e40131d9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
         <ui_id>d50f3188-d71c-46f2-b5be-28df29f3f031</ui_id>
         <values>H4sIAAAAAAAA/42SXW+bMBSG/0rla0BASCC5m9JFmrStarr1pqrQwT5OLBnDjEmbRfnvOw4sRd0m7dLv+XrPc/x0YkqwFYvlPOVVkvKZKACSOIY0l7zIMIuTWZJWLGAGaqRM5Lz80WOPpUXeWEGRA+jeh06nZVplPBYY5tUiD7O8SEIosiKMFxL4MkmXXFbR9lJ3PlOlUF2r4fg4NiCF75UWFg1bPT0HrAVLUx1atjq9C/2vbQ0Vakr9uF7f3HvfN9vfvv+9kTu2PmJRIg3kOEqfx17biU4F3l4SMHx1aASSLwm6w4DVYAS4xh6vikUQd0a/CXtl3LB4Da+d+klTZ2kwGTyxxyZ6OZKj+P0Yk7fg4MHZnrveXmk2imM3EBMoodduPdWGhLvWqcYMJQ4q/X4sb3Rfm68DLnbtNDlb35ElbP3+fqFxO/mwb16usDbKXFCNQd1w0JNUBMv3G4XaH9Y1reLUF5yzquqd93tivfr252EG8W+nQY012SlraFtldmVrm4O6WKCN6min6RFJ3byQ9U7tTATcc4joaBBtSL+9yI9glYfyhdpQsZ/43Shi88k7XWYz+ti4DMVcAn35ahZWeZaGIs+LeYwQzxdzdg5Yd+zWGrrujSItQYQ9g4HpSK8cLuFLuFWt+0CmDjiCOj//AgUyi5qyAwAA</values>
     </sys_hub_action_instance_v2>
@@ -1117,7 +1117,7 @@
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <attributes/>
-        <comment>Wait until request is processed</comment>
+        <comment>Processsing done</comment>
         <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
         <flow display_value="Execute on-prem g3 service Subflow">bbc60796c3d8aa100a27fc84e4013174</flow>
@@ -1126,13 +1126,13 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-24 17:54:31</sys_created_on>
-        <sys_id>f8ca9aa0c36022100a27fc84e4013135</sys_id>
+        <sys_created_on>2025-03-25 00:44:27</sys_created_on>
+        <sys_id>f5983f60c3a822100a27fc84e4013108</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
-        <ui_id>1bcb69c5-ffc8-4d11-88dd-3640191b9c84</ui_id>
+        <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
+        <ui_id>547ba912-94f3-46e6-b298-4d752720bbf4</ui_id>
         <values>H4sIAAAAAAAA/+2XXW+jOBSG/8qI6zhrwIDp3ShJtZW6U23Snb2YnUW2OW4sEcjw0Zls1f++BpxCQpppZ9JKleaSA8e85/V5OPjTnaVi68wioQDKiE0D28HYxr7vCmZz7vqCYw7EGlkpW4F+MgeR5bG+vmVJVQfu7kKHE4FjQAH3A0QCaiNGCUXYl0yEthMKycfzJu/+XmfGqlgnbPPRLKAjYqmSOIfUOvv0eWStWa7fVUJund3t3Xqq2IRxSPSj863affXlZl1fx5moVpCWkdoGL03m1Nx5dzHVd3RSLcceWfCthDQGrUOypICRtWJpzMos31hnZV7pQA4svkqTzcMTS5WWbZ0r9q1Q/+kXu079nARdmDAePFxGxp82LKesZAu9siir/MGuTAkoWktikKxKykk/1j5wtS5VlrYpJePJNjtLqlX6oTXEeligtx1VoUXAuq6zVt6WJRfL7Ot8K/JcpY0jpsQkEyx5uGJlmStelbWcO6tS14fMbsOH7ZYq0dsfNaKjIqvyxqT5bHI1n0Z/v7+e/D6bR/PZ4np+Mbme1RmQQLP0iq3XKr2J1nl2qxqFut7V+CbRF2OZZF91YYW6ScdM1OaM9dax8bmOT5vwR5ar+qV/6GV0cq3yr1R9qeCiaTwpbdf2fWTb2EXE5j4KKXgIg8eI5xDf8x3rfmQVm2KSsKLoPNabG32paotax423UbM9bZlNh9bJIlfr8r2WdwvG0fvRFlPvaOezrtF7a3aoghBaBVQwhPBPE34mid/XsyXxumnAw/oMjIPYZT/33Yf2hkHROY6iiXQstk18AEWK3xCKpqyfZ3HH610Ud9xWRdQ2pBHdrPpavDk2DSnhLnI58RAJpUQUU4IIMCw8Jw6ILX6At+9Sdny+yK6LRZbGqq6r6FFWlKyEfyqM3Vi7ohuhgPjfq3kvDHme5UMGn5540nkpe5RO+gUdKtKgOohdHlrAoOqeamoSjN8SrKeamztm77K6Y/erMAkx9bmHKQJJKSJuQJH+xXOQ77PYtomIJX7ZGYjjY90se7+qpVpBVpWRTNhNj088JG/7VXseV09QsuVqljYfVaPoUYmGLp5lCbB0fwrqdvrt3Cg1aJFnTsFjbL0hsk42Bjun92Zg3+tX4UoIRvVQYyh0BSDic4GoFBK5wD3pepzyAL/ArBPHezgctmpc5azZxY6oE5zpnqBjy9K0E/C4NENSszf78cvhQgYn7xdOP4XTwO69Q15346WYWuq8KdsUdVfkFQwpA5sFHq/PbQwRJ7QRC4mDQh8CIJL6LgtfgDJqH+1uOWzlQiwhrhI4LWVP0LGlbNEJeFyaoaxr9F3A5r24Icw/GWF08DMoVmlf3CHeelW9Se7kAlgulucKkno/zfntERr727ILYn9jXme6OY6tjy8C2bH+dSSO7yDqkgAFIeWY6NbjLpyQu8//A57WQrPYFAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bbc60796c3d8aa100a27fc84e4013174"/>
@@ -1155,10 +1155,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:20:38</sys_created_on>
         <sys_id>8cd60796c3d8aa100a27fc84e40131d5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
         <ui_id>a845ce05-f741-49c3-b6e5-9b3e39d25ed6</ui_id>
         <values>H4sIAAAAAAAA/+1VTU/jMBD9Lz43VZykSeCGQEhI7CIBy2W1qib2GCwcJ8ROoVv1v++4ST9EL+yyp9Xe6pd59ntvZtQVa3rf9t7dN2fO6UfLTr+vmJbslCWinJUVz0UqSwAex5AUSpQZZjFPeVmyCbNQI1V26NrGOiRkAaYP0GolZ7EKZZEsuIiyXCVRNaswSkqpkhOVqjjl0y1zvSau1K41sHz4xBXiSRvZYXDxY8Ja6Eigx46dkidLPyyYa22f6faj4o96NlChodLbvenjGPyyDYjznbaP4/l6JN5twaaTQVoyYfjm0UokBQqMwwmrwUrwTbfcIR2CvLFmDzyRocFHDW9O/6T3yjiOQ6VCciVw+Lo7zsd8B1hdgAeS0gvfd7gNpNEC3ZCHRAW98eeH2FBw03rd2IHioTJbdmP62n4dsmC7C7btJKR3JALbYDVoH42ou6fm9Xar8lLbTSrjR9MIMLsTeMqu6n3Qs2K9vn8X84AcBY0Ga3pxXkPbEjJvu2ahN6+Q6Hr6aOgwVaZ5JXVhB6YggsMptQCml4RfbOAH6HSw+4WuIXJ47pvVLz1ehdERyEFWmEcYl2mUzVIZQcqTqBCVrOKcZ5ALtp4wt3TnBpzbB0Udmr/0weYQ2xjQfMg4UESnW39GohY4ZrGejFvKOcZKcRDpiTie2FmyH0/nwf/Bim5on9jPPf+zy/kBq2bX+sHrO+u/s5b8/1r+C2uZ06hkJfKoTAua0STLokrkIpJpkYoCCpHH8BfXMsyqDf+nQ2cWo7Zd84R2ZOE+YFcHdXJJk6rFIfTadM/B/B5b/wLn47TDrQcAAA==</values>
         <workflow_reference/>
@@ -1229,9 +1229,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>00d60796c3d8aa100a27fc84e40131a8</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>11</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>mitigation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1249,9 +1249,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>44d60796c3d8aa100a27fc84e40131a5</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>11</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1269,9 +1269,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4cd60796c3d8aa100a27fc84e40131a8</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>11</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>prioritization</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1289,9 +1289,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>88d60796c3d8aa100a27fc84e40131a9</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>10</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>escalation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1309,9 +1309,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c0d60796c3d8aa100a27fc84e40131a7</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>11</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>diagnosis</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1329,9 +1329,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c4d60796c3d8aa100a27fc84e40131aa</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>10</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>tests</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -1349,9 +1349,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fcca9aa0c36022100a27fc84e4013126</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+            <sys_updated_on>2025-03-25 00:44:27</sys_updated_on>
             <value>action</value>
         </sys_choice>
     </sys_choice>
@@ -1413,16 +1413,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"14d60796c3d8aa100a27fc84e40131fe","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Execute on-prem g3 service Subflow">6bab7a12c398aa100a27fc84e401313b</plan_id>
-        <snapshot>ad1b96e0c36022100a27fc84e4013107</snapshot>
+        <snapshot>b45abb64c3a822100a27fc84e401318b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 21:20:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>14d60796c3d8aa100a27fc84e40131fe</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 17:54:31</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:44:28</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

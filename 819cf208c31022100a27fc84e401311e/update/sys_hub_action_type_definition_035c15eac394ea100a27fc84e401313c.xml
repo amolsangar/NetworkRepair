@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>035c15eac394ea100a27fc84e401313c</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Determine Tests Result</sys_name>
         <sys_overrides/>
         <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_035c15eac394ea100a27fc84e401313c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:51</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -342,7 +342,7 @@ outputs.result = inputs.response;&#13;
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Result</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Script step">535c15eac394ea100a27fc84e4013149</model>
         <model_id>535c15eac394ea100a27fc84e4013149</model_id>
@@ -367,14 +367,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:14:02</sys_created_on>
         <sys_id>df5c15eac394ea100a27fc84e4013169</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:49</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -538,7 +538,7 @@ outputs.result = inputs.response;&#13;
         <internal_link/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Tests Result</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Determine Tests Result">035c15eac394ea100a27fc84e401313c</model>
         <model_id>035c15eac394ea100a27fc84e401313c</model_id>
@@ -563,14 +563,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:28:09</sys_created_on>
         <sys_id>0a9f5522c3d4ea100a27fc84e40131a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:20:52</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:46:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -597,7 +597,7 @@ outputs.result = inputs.response;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b5c15eac394ea100a27fc84e4013188</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -605,7 +605,7 @@ outputs.result = inputs.response;&#13;
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:49</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:04</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -760,14 +760,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:14:03</sys_created_on>
         <sys_id>975c15eac394ea100a27fc84e4013195</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:49</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1058,17 +1058,17 @@ outputs.result = inputs.response;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Determine Tests Result">035c15eac394ea100a27fc84e401313c</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"716c95eac394ea100a27fc84e401317c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>e07a0ba0c36422100a27fc84e40131d9</snapshot>
+        <snapshot>e439f3e0c3a822100a27fc84e401312d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:14:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>716c95eac394ea100a27fc84e401317c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:51</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:06</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1409,7 +1409,7 @@ outputs.result = inputs.response;&#13;
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Result</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Script step">9d6c95eac394ea100a27fc84e401311a</model>
         <model_id>9d6c95eac394ea100a27fc84e401311a</model_id>
@@ -1434,14 +1434,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:14:11</sys_created_on>
         <sys_id>5d6c95eac394ea100a27fc84e4013122</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:50</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1605,7 +1605,7 @@ outputs.result = inputs.response;&#13;
         <internal_link/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Tests Result</label>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>32</max_length>
         <model display_value="Determine Tests Result">516c95eac394ea100a27fc84e4013110</model>
         <model_id>516c95eac394ea100a27fc84e4013110</model_id>
@@ -1630,14 +1630,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:28:13</sys_created_on>
         <sys_id>8f9f9522c3d4ea100a27fc84e40131d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:50</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1804,14 +1804,14 @@ outputs.result = inputs.response;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-18 08:14:11</sys_created_on>
         <sys_id>e16c95eac394ea100a27fc84e4013141</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:22:51</sys_updated_on>
+        <sys_updated_on>2025-03-25 00:47:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
