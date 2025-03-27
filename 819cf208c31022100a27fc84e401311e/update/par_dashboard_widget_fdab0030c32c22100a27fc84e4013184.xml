@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4a0504b4c3e822100a27fc84e4013117</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1in5gpr0p16drun671l8","filterName":"Filter by HW Model","filterComponentType":"multiselect","datasource":{"type":"table","payload":{"field":"broken_device.hardware.model","table":"x_1635914_networ_0_network_incident","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"broken_device.hardware.model","table":"x_1635914_networ_0_network_incident","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"860504b4c3e822100a27fc84e4013114","isDashboard":true,"id":"filterName","value":"Filter by HW Model","noDebounce":true,"propLabel":"Filter label"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 02:07:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdab0030c32c22100a27fc84e4013184</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name>par_dashboard_widget_fdab0030c32c22100a27fc84e4013184</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 02:32:21</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>12</x>
+        <y>3</y>
+    </par_dashboard_widget>
+</record_update>

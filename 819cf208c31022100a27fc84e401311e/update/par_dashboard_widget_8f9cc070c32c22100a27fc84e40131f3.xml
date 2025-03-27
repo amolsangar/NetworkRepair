@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4a0504b4c3e822100a27fc84e4013117</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1in5guqk0g25lgp5nhao","filterName":"Time range","filterComponentType":"date","datasource":{},"targets":[{"type":"table","payload":{"field":"sys_updated_on","table":"x_1635914_networ_0_network_incident","primaryKey":"sys_id"}}],"allowedDateRanges":[{"label":"Current hour","range":"SN_DYNAMIC_DATERANGE__CURRENT_HOUR"},{"label":"Last 24 hours","range":"SN_DYNAMIC_DATERANGE__LAST_24_HOURS"},{"label":"Last 3 months","range":"SN_DYNAMIC_DATERANGE__LAST_3_MONTH"},{"label":"Last 6 months","range":"SN_DYNAMIC_DATERANGE__LAST_6_MONTH"},{"label":"Last 7 days","range":"SN_DYNAMIC_DATERANGE__LAST_7_DAYS"},{"label":"Last month","range":"SN_DYNAMIC_DATERANGE__LAST_MONTH"},{"label":"Last year","range":"SN_DYNAMIC_DATERANGE__LAST_YEAR"},{"label":"This month","range":"SN_DYNAMIC_DATERANGE__THIS_MONTH"},{"label":"This quarter","range":"SN_DYNAMIC_DATERANGE__THIS_QUARTER"},{"label":"This week","range":"SN_DYNAMIC_DATERANGE__THIS_WEEK"},{"label":"This year","range":"SN_DYNAMIC_DATERANGE__THIS_YEAR"},{"label":"YTD","range":"SN_DYNAMIC_DATERANGE__YTD"}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"allowTimeSelection":false,"dateFilterView":"reldates-only","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","filterProperties":null,"cascadeScope":"860504b4c3e822100a27fc84e4013114","isDashboard":true,"id":"isShowSelectedValueInPill","value":true,"noDebounce":true,"propLabel":"Show values in pill"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 02:11:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f9cc070c32c22100a27fc84e40131f3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name>par_dashboard_widget_8f9cc070c32c22100a27fc84e40131f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 02:31:12</sys_updated_on>
+        <visualization/>
+        <w>6</w>
+        <widget_props/>
+        <x>24</x>
+        <y>3</y>
+    </par_dashboard_widget>
+</record_update>
