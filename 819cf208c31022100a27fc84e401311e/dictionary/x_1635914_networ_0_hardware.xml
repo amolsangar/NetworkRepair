@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="JUNIPER" sequence="3" value="juniper"/>
                 <element inactive_on_update="false" label="UNKNOWN" sequence="0" value="unknown"/>
                 <element inactive_on_update="false" label="ARISTA" sequence="1" value="arista"/>
-                <element inactive_on_update="false" label="CISCO" sequence="2" value="cisco"/>
+                <element inactive_on_update="false" label="CISCOXR" sequence="2" value="ciscoxr"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

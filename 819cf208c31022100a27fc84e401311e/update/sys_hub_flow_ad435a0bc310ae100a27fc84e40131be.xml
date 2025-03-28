@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=418041000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=677518000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>run_action</internal_name>
-        <label_cache>[{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record","label":"1 - Create Record➛Action Record","reference":"x_1635914_networ_0_action","reference_display":"Action","type":"reference","base_type":"reference","usedInstances":{"a314c8b5-3e84-467e-aa75-fd05541b023f":["action_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57838636-2677-49f3-9102-21d7b755c35d.action_result","label":"6 - Determine Action Result➛Action Result","reference_display":"Action Result","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Reboot Done","value":"reboot_done","order":1.0},{"label":"Vendor Diagnosis Done","value":"vendor_diagnosis_done","order":2.0},{"label":"RMA Done","value":"rma_done","order":3.0}],"usedInstances":{"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["result"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"371b3d4e-5022-4ef9-bfff-0d5acf7f704f"}},{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record.sys_id","label":"1 - Create Record➛Action Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1635914_networ_0_action","column_name":"sys_id","usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["sys_id"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["sys_id"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["sys_id"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["sys_id"]}},{"name":"7fc21f89-968a-4810-bede-16385ecd7a16.diagnosis_result","label":"6 - Determine Diagnosis Result➛Diagnosis Result","reference_display":"Diagnosis Result","type":"choice","base_type":"choice","choices":[{"label":"No Action","value":"no_action","order":0.0},{"label":"Reboot","value":"reboot","order":1.0},{"label":"Vendor Diagnosis","value":"vendor_diagnosis","order":2.0},{"label":"RMA","value":"rma","order":3.0},{"label":"Escalation","value":"escalation","order":4.0},{"label":"Test","value":"test","order":5.0}],"usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["result"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec40429f-6b17-4f34-8bfb-e6c200362e39"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.response","label":"2 - Execute on-prem g3 service Subflow➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"7fc21f89-968a-4810-bede-16385ecd7a16":["response"],"474fa4ff-7c45-4b16-928a-b89a12405a9b":["response"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["response"],"e2b83093-6430-4a5a-bc45-5a5b37b76764":["response"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["response"],"57838636-2677-49f3-9102-21d7b755c35d":["response"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ce1adbe6-e083-453d-a312-7cbdb0614a6c"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.state","label":"2 - Execute on-prem g3 service Subflow➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"96317c2a-12fa-4535-b37a-8a11fc5b19a0":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6caa48e1-837c-4244-bc6c-d373c7a7c60a"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"2da9817a-a270-4d51-bd29-bfa95c65292e":["network_incident"],"2bb6c3d0-c97e-4887-a24b-3661e5684c5a":["network_incident"],"d95b2f66-6876-4031-a55d-600dd6000924":["netincident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d991d29-f77b-429c-a5ee-900b13af6c21","uiTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record","label":"1 - Create Record➛Action Record","reference":"x_1635914_networ_0_action","reference_display":"Action","type":"reference","base_type":"reference","usedInstances":{"a314c8b5-3e84-467e-aa75-fd05541b023f":["action_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57838636-2677-49f3-9102-21d7b755c35d.action_result","label":"6 - Determine Action Result➛Action Result","reference_display":"Action Result","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Reboot Done","value":"reboot_done","order":1.0},{"label":"Vendor Diagnosis Done","value":"vendor_diagnosis_done","order":2.0},{"label":"RMA Done","value":"rma_done","order":3.0}],"usedInstances":{"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["result"],"fa5ce35a-7c05-47e3-baf1-976caaa76190":["action_result-0"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"371b3d4e-5022-4ef9-bfff-0d5acf7f704f"}},{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record.sys_id","label":"1 - Create Record➛Action Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1635914_networ_0_action","column_name":"sys_id","usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["sys_id"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["sys_id"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["sys_id"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["sys_id"]}},{"name":"7fc21f89-968a-4810-bede-16385ecd7a16.diagnosis_result","label":"6 - Determine Diagnosis Result➛Diagnosis Result","reference_display":"Diagnosis Result","type":"choice","base_type":"choice","choices":[{"label":"No Action","value":"no_action","order":0.0},{"label":"Reboot","value":"reboot","order":1.0},{"label":"Vendor Diagnosis","value":"vendor_diagnosis","order":2.0},{"label":"RMA","value":"rma","order":3.0},{"label":"Escalation","value":"escalation","order":4.0},{"label":"Test","value":"test","order":5.0}],"usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["result"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec40429f-6b17-4f34-8bfb-e6c200362e39"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.response","label":"2 - Execute on-prem g3 service Subflow➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"7fc21f89-968a-4810-bede-16385ecd7a16":["response"],"474fa4ff-7c45-4b16-928a-b89a12405a9b":["response"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["response"],"e2b83093-6430-4a5a-bc45-5a5b37b76764":["response"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["response"],"57838636-2677-49f3-9102-21d7b755c35d":["response"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ce1adbe6-e083-453d-a312-7cbdb0614a6c"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.state","label":"2 - Execute on-prem g3 service Subflow➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"96317c2a-12fa-4535-b37a-8a11fc5b19a0":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6caa48e1-837c-4244-bc6c-d373c7a7c60a"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"2da9817a-a270-4d51-bd29-bfa95c65292e":["network_incident"],"2bb6c3d0-c97e-4887-a24b-3661e5684c5a":["network_incident"],"d95b2f66-6876-4031-a55d-600dd6000924":["netincident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d991d29-f77b-429c-a5ee-900b13af6c21","uiTypeLabel":"Reference"}}]</label_cache>
         <master_snapshot>98e3964bc310ae100a27fc84e40131c1</master_snapshot>
         <master_snapshot_digest/>
         <name>Run Action</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ad435a0bc310ae100a27fc84e40131be</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Run Action</sys_name>
         <sys_overrides/>
         <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name>sys_hub_flow_ad435a0bc310ae100a27fc84e40131be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:56</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -150,7 +150,7 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=61435a0bc310ae100a27fc84e40131c6"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=ad435a0bc310ae100a27fc84e40131be^sys_idNOT INc3d3564bc310ae100a27fc84e40131b0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ad435a0bc310ae100a27fc84e40131be^sys_idNOT INc3d3564bc310ae100a27fc84e40131b0,decbee25c32066100a27fc84e401310c"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -236,6 +236,91 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c3d3564bc310ae100a27fc84e40131b0"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=67bd3f8c-93f7-43cf-b512-c9bab95e2979</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field>result</choice_field>
+        <choice_table>x_1635914_networ_0_action</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>action_result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Action Result</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Run Action">ad435a0bc310ae100a27fc84e40131be</model>
+        <model_id>ad435a0bc310ae100a27fc84e40131be</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:49</sys_created_on>
+        <sys_id>decbee25c32066100a27fc84e401310c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=decbee25c32066100a27fc84e401310c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ad435a0bc310ae100a27fc84e40131be"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ad435a0bc310ae100a27fc84e40131be"/>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ad435a0bc310ae100a27fc84e40131be^sys_idNOT IN1e8dcba4c36422100a27fc84e40131f3,71435a0bc310ae100a27fc84e40131e2,79435a0bc310ae100a27fc84e40131e3,de8dcba4c36422100a27fc84e40131f4"/>
@@ -254,10 +339,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-24 21:36:21</sys_created_on>
         <sys_id>1e8dcba4c36422100a27fc84e40131f3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 23:35:17</sys_updated_on>
+        <sys_updated_on>2025-03-27 22:11:46</sys_updated_on>
         <ui_id>57838636-2677-49f3-9102-21d7b755c35d</ui_id>
         <values>H4sIAAAAAAAA/6VSy27bMBD8F54tgbJkS/atSBCgQNsATZtLEBhLcmUToCiFDyeu4X/vMpKdNrkU6HGHO7szs3w4Mq3Ymsm6KBdLLmRZcMCCc5jXrWwqrHhRFqJhM2ahQ+p06IfeeiRkDyYm6HicC7GUpeKZXNWYVU1TZzCvRFYulwUulk0lF5CfmacTcZX2g4HD/X+MkDttlEPL1g+PMzaAI4EBHVsf3z39q0MDAs3fFj+aDochIT44bbdT/WUi3p3B3qkkpJgxfAloFZKCFozHGevAKgi9O7B1cJEAh6BurTlcOnbaBhrGUu+L179oXcM5T50tkimJ4+ul3ExhjnB7DQFISZQhuqlV7not0Y9xKGwhmnD1JzY23A5B93akBBDmzO5N7Oy3MQp2GXC+HSHRkwgcktOkfTLS3u365+9nlTfavoYyPZpegrlUECg6EUPSc2RR/3iX8oh8yBkNdrRx08EwELIZXL/Xr1tIdJdvDRV5a/pnUuf11uYgk8OcLgD5DeHXr/A9OJ3sfqUxRE7rflr9FPFz+jk1/RfRtkWm1Ipn1RzqTMwbkfFq1QihFqUqK3aaMX/wVwa8fwuKLrR5isnmGNsU0GbMOFGk00P4RKL2OGVxevwNc+8DI5QDAAA=</values>
     </sys_hub_action_instance_v2>
@@ -276,10 +361,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:30:55</sys_created_on>
         <sys_id>71435a0bc310ae100a27fc84e40131e2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 23:35:17</sys_updated_on>
+        <sys_updated_on>2025-03-27 22:11:46</sys_updated_on>
         <ui_id>2da9817a-a270-4d51-bd29-bfa95c65292e</ui_id>
         <values>H4sIAAAAAAAA/9VUTW/bMAz9K4XOhmHHWdDmNrTIqWuBdcilawXaohNhsuxJcj4W5L+Psuw0SBtsBXqpbyIfqfeeSD/umBRsyiYpJl+u0kmRpVk2SpLR5TjNJ1mejkQGiGMWMQ0VEtJBrpB3h4itQLU+uOHpJKP6Mdfo1rXhCYfCyVoTRkjbKNjOe+jXIV4spRIGNZs+PkWsAUMtHRo23Z2k/pegghwVQX94hmcIu23zZuz2uPbiLiRqIzyfJGK4cagFEpESlMWIVaAFuNps2dSZlgIGQdxrtT0gllI7asg8dmPlH7r2MvG4EklZgSF3OPLephAub8DBA3UuXGt6aLGsZYE2eCKwhFa56+NYANw3nb9dSSezr65VW+m7YAk7NBhehSKtJRLYeJ2eeS+jfFjW6+8Dy5nUnSV9UtUFqMMJnDMyb53ns2OosKJGvIKmkXrBG1OvZFdMXKp4oegQl6pe06VWLnQcBiYmWyGeUfymC8/BSK/iG7Wh4n3E7NZeK7D2RQuZyH+3nklQ1mvgwQZfUhjZOD95K+zp7qNh8gUmV2cHK81fBqkbdns09daBw59tkmQifQ6D/4tLXUh/e4jvdrbNvcr4NL/fPxu09AQB+HpRPrj7O9ft364M6zaTqIR9w6Zh17AiWQ55sO1k3/rkxbxP9juXftTOpZOk+z7R5gVxn37xjv6xZ1bw6S+qQVoXfgYAAA==</values>
     </sys_hub_action_instance_v2>
@@ -298,10 +383,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:30:55</sys_created_on>
         <sys_id>79435a0bc310ae100a27fc84e40131e3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 23:35:17</sys_updated_on>
+        <sys_updated_on>2025-03-27 22:11:46</sys_updated_on>
         <ui_id>15d6807a-d334-4952-bdd3-8ab3091cc68d</ui_id>
         <values>H4sIAAAAAAAA/9VVyU7cQBD9FdRn2/I+yy0CcUpACogLAavcXWZaai/pbgOT0fx7ytP2gCaTBQlF4ti1vnpVfr7dMCnYksWzbJYBxllSJnEShknKcyEQq2pWRnGVMo81UCNFWigVFruHxx5B9YPxuYjyJFtEadGgfWp1ERbArWwbihHSdArWN2Pop8nOV1IJjQ1b3t55rANNJS1qttwcuP4VoIISFYVeDwhPLhzCY6jtujtq+3ysQKvFACr0GD5bbAQSmgqUQY/V0AiwrV6zpdU9GTSCuGzUeh+xko2lgmyIfTbyB7Wdh0NchTQeR+fbP4uRK2euzsDCFVXmttdjKF+1kqNxxAisoFf29LXNBVx2O5J3Kbsxx+xW9XVz4Shh+wLTasjSGwKB3TDngHwco7patU9fJ5TnstlRMjpVy0HtX2CtlmVvBzwb1svrI1w768T2QB0ZUWFNPYsauk42D0Wn20e560Ow6+BB0SOoVPtE+Ix8aAJ3YAFtAIJzsp/tzDeg5dDrC5Wh5K3HzNqcKjDmZWziu/jeD6AdCeO4hWNsSOFadna41EccJ9t605dS/vEQ4eXmKolKmFdfCSEppPjWU5LYbGIBi3k0Ax/iWeinIov8UsQLv6xgkfE8ixcxBho5HWDgMrfbe2PBoquQ32s0XdsY3Fcsy5wnIvT5YoZ+Op/PqHZa+kmeR5jl85RnEExJVIy3oNDQ2Tmkroxr9et3+7HAv1Fc/r7TSVzOp6UeLnkSFayJNYuFW/qBsIzOk5vROYpL9F7ikmdh+JH0xU32DvJyyPp/lBhq1hnUdvrjje3erjyvNPI3GnT3EyAs5KavBwAA</values>
     </sys_hub_action_instance_v2>
@@ -320,10 +405,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-24 21:36:21</sys_created_on>
         <sys_id>de8dcba4c36422100a27fc84e40131f4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 23:35:17</sys_updated_on>
+        <sys_updated_on>2025-03-27 22:11:46</sys_updated_on>
         <ui_id>ee545044-6a12-4ebf-a9ee-fbf4b19fecbe</ui_id>
         <values>H4sIAAAAAAAA/+VVy27bMBD8lYBnS9Bblm9FgpzaBGiCXNJEWJGrmAAtqSSVxDX8712ZkhO47iNAUKDokcN9zA5Xo9sNk4ItWJSneQoYpXEVR3EQxAnPhECs67wKozphM9bACinSQqWw3B1m7BFUP4DPZZjFaREmZYP2qdVlUAK3sm0oRkjTKVjfjKEfJpwvpRIaG7a4vZuxDjSVtKjZYnNw9acEFVSoKPR6YHhy4RgeY23X3VHs47ECrRYDqWDG8NliI5DY1KAMztgKGgG21Wu2sLonQCOIy0at9xFL2VgqyIbYZyO/Udt5MMTVSONxdHf7Yzlq5eD6DCxcUWVuez2G8mUrORonjMAaemVPX2Mu4LLbibxL2Y05ZreqXzUXThK2LzA9DSG9IRLYDXMOzMcx6qtl+/R5Ynkum50k46VqOaj9CazVsurtwGfDenl9RGuHTmoP0hGIClfUs1xB18nmoex0+yh3fYj2yn9QdPBr1T4RPyMfGt8tmE8vAP454Wc7+Aa0HHp9ojKUvJ0xszanCox5GZv0Lr/2A2knwjhu6RQbUriWnR029RHHybaz6UupfrmI8LJztUQlzKuvhJiUUnzpKUlsNpGAYh7m4EGUB14i0tCrRFR4VQ1FyrM0KiL0NXJaQN9lbrf3Gg092FQizefxPIszL8ry3EuKOvaKMIi8KBR5lacpj1Mx6lS6TFeiaxuDex5VlfFYBB4vcvSS+TwnRknlxVkWYprNE56CPyVRvrFgx+T4nreg0NDmumEd7Nj++On/d/O/0eJ+v1mTxZ1Pq3W4apO14YqEt1i61Tuwt/Hy5Ga8HC0ufC+Ly9Ig+Jdczk32DiZ3qPpfNDpq1hnUdvrvju3e7n+vnPonTnj3Hf3TCtA1CAAA</values>
     </sys_hub_action_instance_v2>
@@ -349,7 +434,33 @@
         <ui_id>2bb6c3d0-c97e-4887-a24b-3661e5684c5a</ui_id>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ad435a0bc310ae100a27fc84e40131be^sys_idNOT IN35435a0bc310ae100a27fc84e40131e1,de8dcba4c36422100a27fc84e40131f2,f9435a0bc310ae100a27fc84e40131de"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ad435a0bc310ae100a27fc84e40131be^sys_idNOT IN2acbee25c32066100a27fc84e401311d,35435a0bc310ae100a27fc84e40131e1,de8dcba4c36422100a27fc84e40131f2,f9435a0bc310ae100a27fc84e40131de"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">22cbee25c32066100a27fc84e401311d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Run Action">ad435a0bc310ae100a27fc84e40131be</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>action_result</outputs_assigned>
+        <parent_ui_id>d7927c5a-76ff-4791-8709-2c2c1e1b7f8a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:49</sys_created_on>
+        <sys_id>2acbee25c32066100a27fc84e401311d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
+        <ui_id>fa5ce35a-7c05-47e3-baf1-976caaa76190</ui_id>
+        <values>H4sIAAAAAAAA/61UW2vbMBT+K0HPcfAltuO8lZZCYW0h6/IyhpGl40RMllxLTpqF/Pcd2c6lGYN126M+ncv3ndue6NbWrTUv+sYYsVJk/nVPBCdzwoEVAGHMotBPksD3aZiWbDaFqR9Egc/ImChaAVpSZoVWeQOmlRbhDZWtw/f7OJ1FsyRKvDBJU2+alZGXBX7ohQFPizTG2DGfvHM/HDAAF6aWdLf81zhsLSRvwIn6NiY1bZCvhYbM91dfdldDLmkBEtPdrrVggO5/Woaj401HYLQ41uE35XHJEGbHNLrhjlM4JvBmQXHAtCWVBsakoopTq5vdCWmA8mclz8BaKIvRiDN+M+IHho5CZ1cCymPQ/52e+VDbHu45mK7pRxWeN3rSCkaed9HKM03/MD7bLqDQ2o7u0P7CuOnQnPfo4Bdc+i1Rpm5Gd4KulDbCXEfYdP/Idfi/ihW+4/B48wuBil55RAfsMoeSYgtuPy46+EvR4X8UHX1Y9NSJ7lv8XLsZRKvADSAtpPN4y4MkirNgmiuwW0zt5/2susnQsq3UUz/Bp9EdKrg8F6g1OFJQu7F1czgMZfl5rbeL48zdC9XxGT6lZlSeXtTaRhStdQ3Zk1a8XG1Hj3y63k2QUGHGvKJ1LdQqrxu9EV0WpF5NVhIfk1LqLbJzd224DhNcJzq5R/yug5e0Ea4ajxgGnV26L0q8tvDgdj9JCx6VM+ZlUYlnJ2KlV8RB6LGsoEUWQ5ilGTl025W/tk4U6Yo0lCPvKu4MDGtEbd192MCg3PVGKHd6+xO0GZgMTzw7wiDhF4c9XNjxHZ4VwS4hbN13J/WMHX4CYB18rNgFAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">7878428bc3dc6e100a27fc84e40131fd</block>
@@ -361,17 +472,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
+        <order>9</order>
         <outputs_assigned>action_record</outputs_assigned>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:30:55</sys_created_on>
         <sys_id>35435a0bc310ae100a27fc84e40131e1</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:16</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
         <ui_id>a314c8b5-3e84-467e-aa75-fd05541b023f</ui_id>
         <values>H4sIAAAAAAAA/41T22rcMBD9laLntfE98b4FSiDQNpBu81KKGUvjXVFZcmR5L1323zuynY3phfZRZy5nzpnRmZnBdYPrN+au7+VWs/XXM5OCrRlPRZoXWc3TOAKMowiSm4bfZphFcRrXEVsxDS1SJnAnja4scmMFwXtQg8fP50RAeRvfQEC1UZCJPA5qkZRB3UCZ8yJPygTDqe5yoUoh+07B6XluQAjfSSUs+rm+rVgHligdWrY+/xJypw4rBTUqKnzCBinCkTr8r5jX2rtRzbunVzV/Een5CLYLJgr4yeIVw6NDLZCYG1A9rlgLWoAz9nRFLIJ41OoN2EntJs0tHHv5g7qnyWpBsGbHKi7SvIyzSqM7GFtF1TQWW+RVs4lXKaOLRnJ87MbnyOGgVv9qyY0aWv1p0u+3gw0Myi22M/REh53X6oeflTSfd+ZwXcG91KMtc1AZDur6AuesrAeHvd/oIDe/uzqBH/6wWVTYEm/VQtdJva06a/Zy5KLR23Cr6BE2yhxoRn/b4aQspE1AeE/4+xF+Biu9Gx+pDRV7xi9avgz44C9HZKS6uS2DDCIRZFhkQVlgHjQ8LsqsKFEUJbuM/lcvg5c2WTWbUk2GU0LPreycX8keZ/0Xulup/febbng/TzI/BXLZ08Abjz0s8sSJjlLyJUSr++6lvmGXn2olaW7cAwAA</values>
         <workflow_reference/>
@@ -394,10 +505,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-24 21:36:21</sys_created_on>
         <sys_id>de8dcba4c36422100a27fc84e40131f2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:16</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
         <ui_id>d7927c5a-76ff-4791-8709-2c2c1e1b7f8a</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -420,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:30:55</sys_created_on>
         <sys_id>f9435a0bc310ae100a27fc84e40131de</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:16</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
         <ui_id>96317c2a-12fa-4535-b37a-8a11fc5b19a0</ui_id>
         <values>H4sIAAAAAAAA/+1UXW/TMBT9K5DntMpHk7V9m0CVkIBJbNoLTNGNfdNaOHawnW6l6n/nOh9dRTuBgEfe4nO/zrk+zj7QrWtaZ+/0tbVirYLl54cwEMpj9L0PFNQYLAOmFRdOaFV0QBhsQbY+sAIhW+MRLmwjYXd/FmAbIbnBoXcDhjo4NMFy/1PI7RosJJQoqf7WGaHWVC44naoIqnjBYpYmeZpEUTKfxWWelnHCU0BIKW8sfDNSffW+Q8IXNfh5hNtxkjbc04qjMMAnh4ojja5AWgyDGhQHp83uiBgEfqPkM7ARylG7wCc/WfGdeidZ5hMrJI0M++DxWAwb62G20YLhTeMJ9oiDUg41TMu2Vh97HX7XWEEr3bhrQlpL/bDxpD2LgVJ1u9GPn8aBK6E6gUNQagbyeAJHayhbh9ZfDEqsqVFRQ9PQcorG6K3oiolLPV1LOkwrqR9pqPfNFJgnPqUdwXRF+NsOvgcjvIoP1IaKe5olWMGKzmPUzhmScOjWUnxrPaFe4CCl6LdBCZYZ0bhrmrPFgfUhPDfoiTf3+6Qsc5byaMIWVziZzedXE0hm5STN8xizfD5jGUytA4eHw+svbRSlnJQytJau/szSf93vX7yEBWRVFkfZ5Zcwyy+9hAtv4GX7J7+wv7+w33R/FEX/7X9qf2GL3saDtm74H7v/wVu9n2B733BkwhKRO4+9G//iPrAjAwh2Cj1q89VLeMYOPwAo0vCnDwYAAA==</values>
         <workflow_reference/>
@@ -455,7 +566,30 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ad435a0bc310ae100a27fc84e40131be"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be^sys_idNOT INcfd3564bc310ae100a27fc84e40131b3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be^sys_idNOT IN96cbee25c32066100a27fc84e4013111,cfd3564bc310ae100a27fc84e40131b3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>action_result</element>
+        <help/>
+        <hint/>
+        <label>Action Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:49</sys_created_on>
+        <sys_id>96cbee25c32066100a27fc84e4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>action_record</element>
         <help/>
@@ -479,7 +613,89 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be^sys_idNOT IN13cbee25c32066100a27fc84e40131cb,53cbee25c32066100a27fc84e40131c9,5acbee25c32066100a27fc84e401310e,97cbee25c32066100a27fc84e40131ca"/>
+    <sys_choice field="action_result" table="var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RMA Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13cbee25c32066100a27fc84e40131cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
+            <value>rma_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reboot Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53cbee25c32066100a27fc84e40131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
+            <value>reboot_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5acbee25c32066100a27fc84e401310e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:49</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor Diagnosis Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_ad435a0bc310ae100a27fc84e40131be</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97cbee25c32066100a27fc84e40131ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:53</sys_updated_on>
+            <value>vendor_diagnosis_done</value>
+        </sys_choice>
+    </sys_choice>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -494,7 +710,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>run_action</internal_name>
-        <label_cache>[{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record","label":"1 - Create Record➛Action Record","reference":"x_1635914_networ_0_action","reference_display":"Action","type":"reference","base_type":"reference","usedInstances":{"a314c8b5-3e84-467e-aa75-fd05541b023f":["action_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57838636-2677-49f3-9102-21d7b755c35d.action_result","label":"6 - Determine Action Result➛Action Result","reference_display":"Action Result","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Reboot Done","value":"reboot_done","order":1.0},{"label":"Vendor Diagnosis Done","value":"vendor_diagnosis_done","order":2.0},{"label":"RMA Done","value":"rma_done","order":3.0}],"usedInstances":{"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["result"]},"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"371b3d4e-5022-4ef9-bfff-0d5acf7f704f"}},{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record.sys_id","label":"1 - Create Record➛Action Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1635914_networ_0_action","column_name":"sys_id","usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["sys_id"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["sys_id"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["sys_id"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["sys_id"]}},{"name":"7fc21f89-968a-4810-bede-16385ecd7a16.diagnosis_result","label":"6 - Determine Diagnosis Result➛Diagnosis Result","reference_display":"Diagnosis Result","type":"choice","base_type":"choice","choices":[{"label":"No Action","value":"no_action","order":0.0},{"label":"Reboot","value":"reboot","order":1.0},{"label":"Vendor Diagnosis","value":"vendor_diagnosis","order":2.0},{"label":"RMA","value":"rma","order":3.0},{"label":"Escalation","value":"escalation","order":4.0},{"label":"Test","value":"test","order":5.0}],"usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["result"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec40429f-6b17-4f34-8bfb-e6c200362e39"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.response","label":"2 - Execute on-prem g3 service Subflow➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"7fc21f89-968a-4810-bede-16385ecd7a16":["response"],"474fa4ff-7c45-4b16-928a-b89a12405a9b":["response"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["response"],"e2b83093-6430-4a5a-bc45-5a5b37b76764":["response"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["response"],"57838636-2677-49f3-9102-21d7b755c35d":["response"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ce1adbe6-e083-453d-a312-7cbdb0614a6c"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.state","label":"2 - Execute on-prem g3 service Subflow➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"96317c2a-12fa-4535-b37a-8a11fc5b19a0":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6caa48e1-837c-4244-bc6c-d373c7a7c60a"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"2da9817a-a270-4d51-bd29-bfa95c65292e":["network_incident"],"2bb6c3d0-c97e-4887-a24b-3661e5684c5a":["network_incident"],"d95b2f66-6876-4031-a55d-600dd6000924":["netincident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d991d29-f77b-429c-a5ee-900b13af6c21","uiTypeLabel":"Reference"}}]</label_cache>
+        <label_cache>[{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record","label":"1 - Create Record➛Action Record","reference":"x_1635914_networ_0_action","reference_display":"Action","type":"reference","base_type":"reference","usedInstances":{"a314c8b5-3e84-467e-aa75-fd05541b023f":["action_record-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"57838636-2677-49f3-9102-21d7b755c35d.action_result","label":"6 - Determine Action Result➛Action Result","reference_display":"Action Result","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Reboot Done","value":"reboot_done","order":1.0},{"label":"Vendor Diagnosis Done","value":"vendor_diagnosis_done","order":2.0},{"label":"RMA Done","value":"rma_done","order":3.0}],"usedInstances":{"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["result"],"fa5ce35a-7c05-47e3-baf1-976caaa76190":["action_result-0"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"371b3d4e-5022-4ef9-bfff-0d5acf7f704f"}},{"name":"2da9817a-a270-4d51-bd29-bfa95c65292e.record.sys_id","label":"1 - Create Record➛Action Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1635914_networ_0_action","column_name":"sys_id","usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["sys_id"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["sys_id"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["sys_id"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["sys_id"]}},{"name":"7fc21f89-968a-4810-bede-16385ecd7a16.diagnosis_result","label":"6 - Determine Diagnosis Result➛Diagnosis Result","reference_display":"Diagnosis Result","type":"choice","base_type":"choice","choices":[{"label":"No Action","value":"no_action","order":0.0},{"label":"Reboot","value":"reboot","order":1.0},{"label":"Vendor Diagnosis","value":"vendor_diagnosis","order":2.0},{"label":"RMA","value":"rma","order":3.0},{"label":"Escalation","value":"escalation","order":4.0},{"label":"Test","value":"test","order":5.0}],"usedInstances":{"474fa4ff-7c45-4b16-928a-b89a12405a9b":["result"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ec40429f-6b17-4f34-8bfb-e6c200362e39"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.response","label":"2 - Execute on-prem g3 service Subflow➛Response","reference_display":"Response","type":"string","base_type":"string","usedInstances":{"7fc21f89-968a-4810-bede-16385ecd7a16":["response"],"474fa4ff-7c45-4b16-928a-b89a12405a9b":["response"],"15d6807a-d334-4952-bdd3-8ab3091cc68d":["response"],"e2b83093-6430-4a5a-bc45-5a5b37b76764":["response"],"63084bb7-77f6-468f-9adb-1cd191ad33cb":["response"],"57838636-2677-49f3-9102-21d7b755c35d":["response"],"ee545044-6a12-4ebf-a9ee-fbf4b19fecbe":["response"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ce1adbe6-e083-453d-a312-7cbdb0614a6c"}},{"name":"2bb6c3d0-c97e-4887-a24b-3661e5684c5a.state","label":"2 - Execute on-prem g3 service Subflow➛State","reference_display":"State","type":"string","base_type":"string","usedInstances":{"96317c2a-12fa-4535-b37a-8a11fc5b19a0":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6caa48e1-837c-4244-bc6c-d373c7a7c60a"}},{"name":"subflow.network_incident","label":"Input➛Network Incident","reference":"x_1635914_networ_0_network_incident","reference_display":"Network Incident","type":"reference","base_type":"reference","usedInstances":{"2da9817a-a270-4d51-bd29-bfa95c65292e":["network_incident"],"2bb6c3d0-c97e-4887-a24b-3661e5684c5a":["network_incident"],"d95b2f66-6876-4031-a55d-600dd6000924":["netincident"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d991d29-f77b-429c-a5ee-900b13af6c21","uiTypeLabel":"Reference"}}]</label_cache>
         <master>true</master>
         <name>Run Action</name>
         <natlang/>
@@ -511,7 +727,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98e3964bc310ae100a27fc84e40131c1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -519,7 +735,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:55</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -625,7 +841,7 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d8e3964bc310ae100a27fc84e40131c3"/>
-    <sys_hub_flow_output action="delete_multiple" query="model=98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN98e3964bc310ae100a27fc84e40131d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN98e3964bc310ae100a27fc84e40131d6,efcb2265c32066100a27fc84e401314f"/>
     <sys_hub_flow_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -711,6 +927,91 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98e3964bc310ae100a27fc84e40131d6"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=67bd3f8c-93f7-43cf-b512-c9bab95e2979</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field>result</choice_field>
+        <choice_table>x_1635914_networ_0_action</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>action_result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Action Result</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Run Action">98e3964bc310ae100a27fc84e40131c1</model>
+        <model_id>98e3964bc310ae100a27fc84e40131c1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+        <sys_id>efcb2265c32066100a27fc84e401314f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=efcb2265c32066100a27fc84e401314f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=98e3964bc310ae100a27fc84e40131c1"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=98e3964bc310ae100a27fc84e40131c1"/>
     <sys_hub_action_instance_v2 action="delete_multiple" query="flow=98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN7afd87e4c36422100a27fc84e401314d,94e3964bc310ae100a27fc84e40131f3,b6fd87e4c36422100a27fc84e401314e,d0e3964bc310ae100a27fc84e40131f4"/>
@@ -824,7 +1125,7 @@
         <ui_id>2bb6c3d0-c97e-4887-a24b-3661e5684c5a</ui_id>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN3afd87e4c36422100a27fc84e4013151,58e3964bc310ae100a27fc84e40131f2,94e3964bc310ae100a27fc84e40131f0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN3afd87e4c36422100a27fc84e4013151,3fcb2265c32066100a27fc84e4013166,58e3964bc310ae100a27fc84e40131f2,94e3964bc310ae100a27fc84e40131f0"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">da8dcba4c36422100a27fc84e40131e5</block>
@@ -843,12 +1144,38 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-24 21:38:18</sys_created_on>
         <sys_id>3afd87e4c36422100a27fc84e4013151</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:55</sys_updated_on>
+        <ui_id>d7927c5a-76ff-4791-8709-2c2c1e1b7f8a</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">22cbee25c32066100a27fc84e401311d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Run Action">98e3964bc310ae100a27fc84e40131c1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned>action_result</outputs_assigned>
+        <parent_ui_id>d7927c5a-76ff-4791-8709-2c2c1e1b7f8a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:55</sys_created_on>
+        <sys_id>3fcb2265c32066100a27fc84e4013166</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
-        <ui_id>d7927c5a-76ff-4791-8709-2c2c1e1b7f8a</ui_id>
-        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <sys_updated_on>2025-03-27 21:42:55</sys_updated_on>
+        <ui_id>fa5ce35a-7c05-47e3-baf1-976caaa76190</ui_id>
+        <values>H4sIAAAAAAAA/61UyW7bMBD9FYNny9BiSVZuQYwAAbIASepLUQgUSdlEKFIhKSeu4X/vUKKXOCjQtL2Rj7O8NzOcLVKdbTtrntWlMXwp0cX3LeIUXSDKSMVYnJIkDrMsCkMc5zWZTdk0jJIoJGiMJG4YWGJiuZKlZqYTFuA1Fp3Dt9s0nyWzLMmCOMvzYFrUSVBEYRzEEc2rPIXYKZ18cN/tIADlphV4s/jXOGTFBdXMifoxRi3WwNcyjS5AooSDxOKWyxdI8cn4T0sgcMUEmF72yUeP+xr8pjR20zqYrBQnzN9vfYirPag0dSTjMWLvlknKgEuNhWFj1GBJsVV6c0A0w/RBiiOwAmmDoga/G/4T8iWxs6sZqCNseDtcS1/sAa7n2OInqztiO832hXG8TD8Ze7lBMLpXko2C4KTfR+rhbny0fWSVUnY0B/sTY92jJR1Q7xed+i1AutKjOcdLqQw35xHW/Tvw9+9nseIPHO4uPxFo8JlHsoPGU1Zj6NXV10VHfyk6/o+iky+LnjrRQ4sfWjesYBW5ycSVcB7vZZQlaRFNS8nsG6QOy2Go3WQo0TXyfhj1w4z7Ci6OBeoMjBlr3Si72fSDWj+t1Nvjfg6vuez5+EehCBaHG7ZW86qzriFb1PHns280IJ8+EhOsgYxlg9uWy2XZarXmfRag3kyWAi6TWqg3YOeWn18hE/hieHIN+LyHF1hzV407CAPOLt03yV87duOWRJZXNKlnJCiSGnZTQuqgSqM4IEWFqyJlcZEXaDdGZmOuBDbGl2v4g+Vr52Sivmy+QGXfg96FaN5at1rWzNfCdYtLt7GHPbX23PwVNhY3IOHZYTcndnQDG4mTUwia+eLEH7HdL95aVXMPBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -862,17 +1189,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>8</order>
+        <order>9</order>
         <outputs_assigned>action_record</outputs_assigned>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:33:33</sys_created_on>
         <sys_id>58e3964bc310ae100a27fc84e40131f2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:55</sys_updated_on>
         <ui_id>a314c8b5-3e84-467e-aa75-fd05541b023f</ui_id>
         <values>H4sIAAAAAAAA/41T22rbQBD9lbLPkpFsWYn8FhICgbSBJM1LCWK0O4qXrFbKXnyp8b93VlJtQVPaN+nsXM6FObDWu847+9xeWSvfNFv9ODAp2IrxhVgs86ziizQBTJME5hc1v8wwS9JFWiUsYhoapErgTra6NMhbIwjegPIBPxzmAorL9AJi6k3iTCzTuBLzIq5qKJY8X86LOc6GvuOROoW0nYL9yziAEL6WShgMvF4j1oGhlQ4NWxFLTR8a1L3U758V/68KBRUqKr3qZXx5/C3jL+rcvguwwRppFccRuh+nPE5waghU04jhzqEWSIxqUBYj1oAW4FqzPyEGQTxodQbWJHDQ1cDOyp+0dTGPJotXbFem+WJZpFmp0W1bUyblQJdN6srR1ZNEeqxvwMGTM547b05Wt5KjHcwTWINX7nqKDQUPXT+jb3FQqX/x4K3yjf42mMlOkycZe0scsQsGBcWj/Ppp3W5Pbt5K3Xs5PqqWg5qUIhi+vpWoQubaNxXVRgycM7LyLgg4MC+f/4xuAD8LDxU2xKdsoOukfis7025kz4EkNbM3RT+zWrVb4h4uZzYonlGsMLsl/KaHX8DI4NJXGtOT8vK7lh8e7wJVkZEb9WURZ5CIOMM8i4scl3HN07zI8gJFXrBjxOzeXiuw9mwjiSg/fDBhMHW0rxyiCS3cyM6FxDc4OnUMV6HDuQ+BbkZup8y5tCThOWB3kzqxp1uQfApRyO9B/Bk7/gIdlcPXTAQAAA==</values>
         <workflow_reference/>
@@ -895,10 +1222,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:33:33</sys_created_on>
         <sys_id>94e3964bc310ae100a27fc84e40131f0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:55</sys_updated_on>
         <ui_id>96317c2a-12fa-4535-b37a-8a11fc5b19a0</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8lZZnWdDDUmzfAgcGCqQN0AS5tIGwIimbKCWqJGXHFfzvXerhGLWLNkiPvZmz3OXMaAduiWps3VjzoK6NEeuKLL48eURUDsPfLamg5GRBqKqYsEJVWQd4ZAuycYUVCNlohzBhagn7x7MC3QjJNB9m16BxguWaLNpfSoJhXxFAEc5pSOMojaMgiGbTME/jPIxYDBxiHCgh5xKvLkdS7247xPstW7uvHW6sFtV6ON8OU+5HUGnmWIWBR/iz5RXjyKcAabhHSqgYWKX3R0RzYHeVfAE2orI4jrjLz0b8wAejJHEXC44SKe+Lx2M2GNbDxQ1YQCoNtc61DqMbJSg3vTmMF9BIuzzF+gt3tZPat1jI5ditZFNWn3pHyHHA+H0QaQyS4LVT6qgPOor7jdp9HlmuRNW5MhSloiCPJ7DoXd5Yx6clXPISB2Ul1DU6mtVabUXXjFxKfy3x4BdS7fBRt2s+UEfcR2PBXyF+08GPoIVT8RHHYHNPMwcjaNbtJY5Dmzg5eMTszVKCMS8i0d3se+Mo9pIHcVnvj2uhWtT2Gl/e8kHHwTtf85MNb9soz1Mas2BC51d8Mp3NriYQTfNJnKYhT9LZlCbgGwuWHw7vvzZBEDPUjl/J4AadBePN816XpzkkRRIGyeU8TdNLebqQpFeGKPpDiNwX/MsMBUHwP0RvDpEwWb/6g7bu8X+YoScXmP7No9dUGKT24LAP4z+KK+xxuQQ9hXZKf3OiXrDDT4naQbibBgAA</values>
         <workflow_reference/>
@@ -930,7 +1257,30 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_98e3964bc310ae100a27fc84e40131c1"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN94e3964bc310ae100a27fc84e40131de"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN73cb2265c32066100a27fc84e401315c,94e3964bc310ae100a27fc84e40131de"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>action_result</element>
+        <help/>
+        <hint/>
+        <label>Action Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+        <sys_id>73cb2265c32066100a27fc84e401315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>action_record</element>
         <help/>
@@ -954,7 +1304,89 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1^sys_idNOT IN27cb2265c32066100a27fc84e4013153,2fcb2265c32066100a27fc84e4013155,6bcb2265c32066100a27fc84e4013156,efcb2265c32066100a27fc84e4013154"/>
+    <sys_choice field="action_result" table="var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27cb2265c32066100a27fc84e4013153</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor Diagnosis Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fcb2265c32066100a27fc84e4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+            <value>vendor_diagnosis_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RMA Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bcb2265c32066100a27fc84e4013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+            <value>rma_done</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reboot Done</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_output_98e3964bc310ae100a27fc84e40131c1</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-27 21:42:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efcb2265c32066100a27fc84e4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-27 21:42:54</sys_updated_on>
+            <value>reboot_done</value>
+        </sys_choice>
+    </sys_choice>
     <sys_hub_flow action="UPDATE">
         <sys_id>ad435a0bc310ae100a27fc84e40131be</sys_id>
         <latest_snapshot>98e3964bc310ae100a27fc84e40131c1</latest_snapshot>
@@ -965,16 +1397,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e8e3d64bc310ae100a27fc84e401311d","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Run Action">ad435a0bc310ae100a27fc84e40131be</plan_id>
-        <snapshot>60c82b2cc3e422100a27fc84e401316b</snapshot>
+        <snapshot>de623eadc32066100a27fc84e40131ef</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-20 01:33:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e8e3d64bc310ae100a27fc84e401311d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 21:38:18</sys_updated_on>
+        <sys_updated_on>2025-03-27 21:42:56</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
