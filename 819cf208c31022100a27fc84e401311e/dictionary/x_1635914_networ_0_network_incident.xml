@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a8962914c35c22100a27fc84e4013188" extends="task" label="Network Incident" max_length="40" name="x_1635914_networ_0_network_incident" type="collection">
-        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_mitigation" label="Last Mitigation Result" max_length="40" name="last_mitigation_result" type="string">
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_mitigation" label="Last Mitigation Result" max_length="40" name="last_mitigation_result" read_only="true" type="string">
             <choice/>
         </element>
+        <element label="Flow Context SysId" max_length="40" name="flow_context_sysid" type="string"/>
         <element label="Record Locked" max_length="40" name="record_locked" type="boolean"/>
         <element choice="3" default="calculating" label="Correlation Decision" max_length="32" name="correlation_decision" type="choice">
             <choice>
@@ -28,14 +29,14 @@
         <element label="Broken Device" max_length="32" name="broken_device" read_only="true" reference="x_1635914_networ_0_device" type="reference"/>
         <element label="Drain Entities" max_length="40" name="drain_entities" type="string"/>
         <element label="Child Incidents" max_length="32" name="child_incidents" reference="x_1635914_networ_0_network_incident" type="reference"/>
-        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_prioritization" label="Last Prioritization Result" max_length="40" name="last_prioritization_result" type="string">
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_prioritization" label="Last Prioritization Result" max_length="40" name="last_prioritization_result" read_only="true" type="string">
             <choice/>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Broken Component" mandatory="true" max_length="32" name="broken_component" reference="x_1635914_networ_0_component" type="reference" use_dependent_field="true"/>
-        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_tests" label="Last Test Result" max_length="40" name="last_test_result" type="string">
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_tests" label="Last Test Result" max_length="40" name="last_test_result" read_only="true" type="string">
             <choice/>
         </element>
-        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_diagnosis" label="Last Diagnosis Result" max_length="40" name="last_diagnosis_result" type="string">
+        <element choice="1" choice_field="result" choice_table="x_1635914_networ_0_diagnosis" label="Last Diagnosis Result" max_length="40" name="last_diagnosis_result" read_only="true" type="string">
             <choice/>
         </element>
     </element>

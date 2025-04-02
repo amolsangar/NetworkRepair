@@ -31,8 +31,8 @@
         <onclick>openOpsView()</onclick>
         <order>100</order>
         <script><![CDATA[function openOpsView() {
-    // var id = g_form.getUniqueValue();
-    var url = "/$flow-designer.do#/operations/context/fdd0fee991206610e4c896db5de4fb4c";
+	var flow_sys_id = g_form.getValue('flow_context_sysid');
+    var url = "/$flow-designer.do#/operations/context/"+flow_sys_id;
 	g_navigation.openPopup(url);
 }]]></script>
         <show_insert>true</show_insert>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>633147edc36066100a27fc84e40131da</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Show Workflow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NetworkRepair" source="x_1635914_networ_0">819cf208c31022100a27fc84e401311e</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NetworkRepair">819cf208c31022100a27fc84e401311e</sys_scope>
         <sys_update_name>sys_ui_action_633147edc36066100a27fc84e40131da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-27 23:34:22</sys_updated_on>
+        <sys_updated_on>2025-04-02 14:30:50</sys_updated_on>
         <table>x_1635914_networ_0_network_incident</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
